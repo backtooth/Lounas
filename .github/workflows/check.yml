@@ -1,0 +1,26 @@
+name: Tarkista sivu
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hae repo
+        uses: actions/checkout@v6
+      - name: Ota Node.js käyttöön
+        uses: actions/setup-node@v6
+        with:
+          node-version: 24
+      - name: Testaa parserit
+        run: node --test
+      - name: Päivitä päivän data
+        run: node scripts/update-menu.mjs
+      - name: Rakenna sivu
+        run: node scripts/build.mjs

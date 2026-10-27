@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Dylan Vaisalan, Lunchhubin ja Fuudiin tämän päivän lounaat yhdessä näkymässä." />
+    <meta name="theme-color" content="#f5f1e8" />
+    <title>Tänään lounaaksi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Fraunces:opsz,wght@9..144,600;9..144,700&amp;display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="app.js"></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <a class="brand" href="./" aria-label="Tänään lounaaksi – etusivu">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M8 20a12 12 0 0 0 24 0H8Z" /><path d="M13 14c0-2 1.6-3 1.6-5M20 14c0-2 1.6-3 1.6-5M27 14c0-2 1.6-3 1.6-5" /></svg>
+          </span>
+          <span>Lounas.</span>
+        </a>
+        <div class="hero-copy">
+          <p class="eyebrow">Vantaa · tänään</p>
+          <h1>Mitä tänään<br />syötäisiin?</h1>
+          <p class="intro">Kolmen lähiravintolan päivän lounaat yhdessä rauhallisessa näkymässä. Ei huomista, ei eilistä — vain se, mitä saat juuri tänään.</p>
+        </div>
+        <div class="date-card" aria-live="polite">
+          <span class="date-card-label">Tänään</span>
+          <strong id="weekday">—</strong>
+          <span id="date">Ladataan…</span>
+        </div>
+      </header>
+
+      <main>
+        <div class="section-heading">
+          <div><p class="eyebrow">Päivän kattaus</p><h2>Lounaslistat</h2></div>
+          <p id="updated" class="updated" aria-live="polite"></p>
+        </div>
+        <section id="restaurants" class="restaurant-grid" aria-live="polite" aria-busy="true">
+          <article class="restaurant-card skeleton" aria-label="Ladataan lounaslistaa"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line medium"></div></article>
+          <article class="restaurant-card skeleton" aria-hidden="true"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line medium"></div></article>
+          <article class="restaurant-card skeleton" aria-hidden="true"><div class="skeleton-line short"></div><div class="skeleton-line title"></div><div class="skeleton-line"></div><div class="skeleton-line"></div><div class="skeleton-line medium"></div></article>
+        </section>
+        <noscript><p class="error-message">Lounaslistojen näyttäminen vaatii JavaScriptin.</p></noscript>
+      </main>
+
+      <footer><p>Listat päivittyvät ravintoloiden omista lähteistä.</p><span aria-hidden="true">Hyvää ruokahalua!</span></footer>
+    </div>
+
+    <template id="restaurant-template">
+      <article class="restaurant-card">
+        <header class="restaurant-header">
+          <div><p class="restaurant-number"></p><h3 class="restaurant-name"></h3></div>
+          <a class="source-link" target="_blank" rel="noopener noreferrer"><span>Oma sivu</span><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 14 14 6M8 6h6v6" /></svg></a>
+        </header>
+        <div class="restaurant-meta"><span class="hours"></span><span class="dot" aria-hidden="true"></span><span class="address"></span></div>
+        <div class="menu-list"></div>
+      </article>
+    </template>
+
+    <template id="menu-item-template">
+      <div class="menu-item">
+        <div class="menu-item-heading"><p class="menu-type"></p><p class="menu-price"></p></div>
+        <h4 class="menu-title"></h4><p class="menu-description"></p><p class="menu-diet"></p>
+      </div>
+    </template>
+  </body>
+</html>

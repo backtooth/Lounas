@@ -1,0 +1,107 @@
+:root {
+  color-scheme: light;
+  --ink: #20241f;
+  --muted: #6f746a;
+  --paper: #f5f1e8;
+  --card: #fffdf8;
+  --line: #d9d5ca;
+  --orange: #e86d3a;
+  --green: #6f7d62;
+  --shadow: 0 18px 55px rgba(48, 45, 36, 0.08);
+  font-family: "DM Sans", system-ui, sans-serif;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--paper); scroll-behavior: smooth; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background: radial-gradient(circle at 90% 4%, rgba(232, 109, 58, 0.12), transparent 25rem), var(--paper);
+}
+a { color: inherit; }
+.page-shell { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+.hero { position: relative; min-height: 560px; padding: 30px 0 80px; border-bottom: 1px solid var(--line); }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-size: 1.05rem; font-weight: 700; text-decoration: none; }
+.brand-mark { display: grid; width: 38px; height: 38px; place-items: center; color: var(--paper); background: var(--ink); border-radius: 50%; }
+.brand-mark svg { width: 25px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.8; }
+.hero-copy { max-width: 790px; padding-top: 94px; }
+.eyebrow { margin: 0 0 18px; color: var(--orange); font-size: .72rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+h1, h2, h3 { font-family: "Fraunces", Georgia, serif; letter-spacing: -.045em; }
+h1 { max-width: 720px; margin: 0; font-size: clamp(4rem, 9.2vw, 7.8rem); line-height: .84; }
+.intro { max-width: 590px; margin: 38px 0 0; color: var(--muted); font-size: clamp(1rem, 1.5vw, 1.18rem); line-height: 1.7; }
+.date-card {
+  position: absolute; right: 0; bottom: 52px; display: flex; width: 214px; min-height: 214px; padding: 26px;
+  flex-direction: column; justify-content: flex-end; color: #fff8ee; background: var(--orange);
+  border-radius: 50% 50% 50% 12px; box-shadow: var(--shadow);
+}
+.date-card-label { position: absolute; top: 35px; left: 50%; font-size: .7rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; transform: translateX(-50%); }
+.date-card strong { font-family: "Fraunces", Georgia, serif; font-size: 2rem; line-height: 1; }
+.date-card > span:last-child { margin-top: 6px; opacity: .8; }
+main { padding: 82px 0 100px; }
+.section-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; margin-bottom: 32px; }
+.section-heading .eyebrow { margin-bottom: 8px; }
+h2 { margin: 0; font-size: clamp(2.4rem, 5vw, 4.3rem); }
+.updated { margin: 0 0 8px; color: var(--muted); font-size: .78rem; }
+.restaurant-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; align-items: start; }
+.restaurant-card { position: relative; overflow: hidden; min-width: 0; padding: 26px; background: var(--card); border: 1px solid rgba(32, 36, 31, .08); border-radius: 5px 30px 5px 5px; box-shadow: var(--shadow); }
+.restaurant-card::before { position: absolute; top: 0; left: 0; width: 100%; height: 4px; content: ""; background: var(--green); }
+.restaurant-card:nth-child(2)::before { background: var(--orange); }
+.restaurant-card:nth-child(3)::before { background: #d4a72c; }
+.restaurant-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.restaurant-number { margin: 0 0 8px; color: var(--muted); font-size: .67rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
+.restaurant-name { margin: 0; font-size: clamp(1.65rem, 3vw, 2.2rem); line-height: 1; }
+.source-link { display: flex; flex: 0 0 auto; align-items: center; gap: 4px; padding: 7px 9px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; font-size: .68rem; font-weight: 700; text-decoration: none; transition: 160ms ease; }
+.source-link:hover, .source-link:focus-visible { color: var(--card); background: var(--ink); border-color: var(--ink); outline: none; }
+.source-link svg { width: 14px; fill: none; stroke: currentColor; stroke-linecap: round; stroke-linejoin: round; stroke-width: 1.5; }
+.restaurant-meta { display: flex; min-height: 46px; align-items: center; gap: 7px; margin-top: 18px; padding-bottom: 18px; color: var(--muted); border-bottom: 1px solid var(--line); font-size: .74rem; line-height: 1.4; }
+.dot { width: 3px; height: 3px; flex: 0 0 auto; background: currentColor; border-radius: 50%; }
+.menu-item { padding: 20px 0; border-bottom: 1px solid var(--line); }
+.menu-item:last-child { padding-bottom: 4px; border-bottom: 0; }
+.menu-item-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.menu-type, .menu-price, .menu-diet { margin: 0; color: var(--orange); font-size: .64rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.menu-price { white-space: nowrap; }
+.menu-title { margin: 7px 0 0; font-size: 1rem; font-weight: 600; line-height: 1.43; }
+.menu-description { margin: 8px 0 0; color: var(--muted); font-size: .78rem; line-height: 1.5; }
+.menu-description:empty, .menu-diet:empty, .menu-price:empty, .menu-type:empty { display: none; }
+.menu-diet { margin-top: 9px; color: var(--green); font-size: .59rem; letter-spacing: .08em; }
+.empty-state { padding: 36px 0 12px; color: var(--muted); line-height: 1.6; }
+.empty-state strong { display: block; margin-bottom: 6px; color: var(--ink); font-family: "Fraunces", Georgia, serif; font-size: 1.3rem; }
+.error-message { padding: 24px; color: #7e3125; background: #f7ddd4; border-radius: 6px; }
+.skeleton { min-height: 340px; }
+.skeleton-line { height: 14px; margin: 20px 0; background: linear-gradient(90deg, #ece8df 25%, #f6f3ec 50%, #ece8df 75%); background-size: 200% 100%; border-radius: 999px; animation: shimmer 1.4s infinite linear; }
+.skeleton-line.short { width: 25%; } .skeleton-line.medium { width: 65%; } .skeleton-line.title { width: 58%; height: 32px; }
+@keyframes shimmer { to { background-position: -200% 0; } }
+footer { display: flex; padding: 26px 0 42px; align-items: center; justify-content: space-between; gap: 20px; color: var(--muted); border-top: 1px solid var(--line); font-size: .76rem; }
+footer span { color: var(--ink); font-family: "Fraunces", Georgia, serif; font-size: 1rem; }
+
+@media (max-width: 920px) {
+  .hero { min-height: 660px; }
+  .date-card { right: auto; left: 0; width: 170px; min-height: 170px; }
+  .date-card-label { top: 24px; }
+  .date-card strong { font-size: 1.55rem; }
+  .restaurant-grid { grid-template-columns: 1fr; }
+  .restaurant-card { padding: 28px; }
+}
+
+@media (max-width: 560px) {
+  .page-shell { width: min(100% - 28px, 1180px); }
+  .hero { min-height: 610px; padding-top: 20px; }
+  .hero-copy { padding-top: 82px; }
+  h1 { font-size: clamp(3.6rem, 19vw, 5.5rem); }
+  .intro { margin-top: 28px; }
+  .date-card { bottom: 30px; width: 146px; min-height: 146px; padding: 20px; }
+  .date-card strong { font-size: 1.35rem; }
+  main { padding: 62px 0 70px; }
+  .section-heading { align-items: flex-start; flex-direction: column; gap: 14px; }
+  .updated { margin: 0; }
+  .restaurant-card { padding: 22px; }
+  .restaurant-header { gap: 10px; }
+  .source-link span, .restaurant-meta .dot { display: none; }
+  .restaurant-meta { align-items: flex-start; flex-direction: column; gap: 2px; }
+  footer { align-items: flex-start; flex-direction: column; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}

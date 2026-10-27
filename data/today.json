@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-27",
+  "weekday": "Tiistai",
+  "displayDate": "27. lokakuuta 2026",
+  "generatedAt": "2026-10-27T14:27:20.946Z",
+  "restaurants": [
+    {
+      "name": "Dylan Vaisala",
+      "address": "Vanha Nurmijärventie 21, Rak. 3",
+      "hours": "10.30–13.30",
+      "sourceUrl": "https://www.dylan.fi/vaisala",
+      "status": "ok",
+      "message": "",
+      "items": [
+        {
+          "type": "Keitto",
+          "title": "Valkoviinillä höystetty savusimpukkakeitto (L, G)",
+          "description": "",
+          "diet": "",
+          "price": "6,90 €"
+        },
+        {
+          "type": "Kotiruoka",
+          "title": "Sticky chicken soija-sweet & sour kastikkeella (M) Basmatiriisi (V, G)",
+          "description": "",
+          "diet": "",
+          "price": "11,20 €"
+        },
+        {
+          "type": "Kotiruoka",
+          "title": "Mehevä kaalilaatikko naudan jauhelihasta (M, G) Sokeroitua puolukkaa (V, G)",
+          "description": "",
+          "diet": "",
+          "price": "11,20 €"
+        },
+        {
+          "type": "Kasvisruoka",
+          "title": "Kikherne-bataatti paistosta tuoreella pinaatilla (V, G)",
+          "description": "",
+          "diet": "",
+          "price": "11,20 €"
+        },
+        {
+          "type": "Jälkiruoka",
+          "title": "Mansikka-mustikkakiisseli (V, G) Kermavaahto (L, G)",
+          "description": "",
+          "diet": "",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "name": "Lunch Hub",
+      "address": "Vanha Nurmijärventie 21, Rak. 4",
+      "hours": "10.30–13.30",
+      "sourceUrl": "https://www.lunchhub.fi/",
+      "status": "ok",
+      "message": "",
+      "items": [
+        {
+          "type": "Keitto",
+          "title": "Thai kanakeittoa",
+          "description": "",
+          "diet": "M · G · SK",
+          "price": "7,10 €"
+        },
+        {
+          "type": "Kotiruoka",
+          "title": "Täyteläistä jauhelihakastiketta",
+          "description": "",
+          "diet": "L · G",
+          "price": "10,80 €"
+        },
+        {
+          "type": "Kasvisruoka",
+          "title": "Vegaaninen herniskastike",
+          "description": "",
+          "diet": "G · V",
+          "price": "10,80 €"
+        },
+        {
+          "type": "Lisuke",
+          "title": "Paahdettua perunaa ja persiljaa",
+          "description": "",
+          "diet": "G · V",
+          "price": ""
+        },
+        {
+          "type": "Jälkiruoka",
+          "title": "Lunch Hubin banoffee rahkaa",
+          "description": "",
+          "diet": "L · G",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "name": "Fuudii",
+      "address": "Ansatie 5",
+      "hours": "9.45–13.00",
+      "sourceUrl": "https://www.fuudii.fi/ravintola.html?listtype=lunch&ci=0&showall=true",
+      "status": "ok",
+      "message": "",
+      "items": [
+        {
+          "type": "Lounas",
+          "title": "Naudan paahtopaistia ja paahdettua pippuri-kermakastiketta",
+          "description": "",
+          "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Belmanninpannu ja paistettua munaa",
+          "description": "Kermainen pyttipannu, nakkeja, jauhelihaa ja Annabella perunaa",
+          "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Juustolla täytetyt kasvisgrepit",
+          "description": "",
+          "diet": "laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Jasminriisiä",
+          "description": "",
+          "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Paahdetut tuoreet kasvikset",
+          "description": "",
+          "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Rähmäpullapeltiä ja tiikerikastiketta",
+          "description": "",
+          "diet": "laktoositon",
+          "price": ""
+        }
+      ]
+    }
+  ]
+}
