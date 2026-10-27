@@ -21,6 +21,19 @@ const RESTAURANTS = {
     hours: "9.45–13.00",
     sourceUrl: "https://www.fuudii.fi/ravintola.html?listtype=lunch&ci=0&showall=true",
   },
+  sapusca: {
+    name: "Ravintola Sapusca",
+    address: "Jönsaksentie 4",
+    hours: "ma–pe 10.15–14 · la 11–14",
+    sourceUrl: "https://www.sapusca.fi/",
+    apiUrl: "https://lounastaja.app/api/v1/widget/30c4a7a9-5404-4671-a599-b1cde6969359/ZaDYLwICDmXxezuLXnVo",
+  },
+  koto: {
+    name: "Koto Kaivoksela",
+    address: "Vetokuja 4",
+    hours: "10.30–14.00",
+    sourceUrl: "https://www.kotoravintolat.fi/kaivoksela",
+  },
 };
 
 const FINNISH_WEEKDAYS = ["sunnuntai", "maanantai", "tiistai", "keskiviikko", "torstai", "perjantai", "lauantai"];
@@ -149,6 +162,46 @@ export function parseFuudiiHtml(html, restaurant, dateKey) {
   };
 }
 
+const KOTO_DAY_ABBREVIATIONS = ["SU", "MA", "TI", "KE", "TO", "PE", "LA"];
+
+export function parseKotoHtml(html, restaurant, dateKey) {
+  const localDate = new Date(`${dateKey}T12:00:00Z`);
+  const dayIndex = localDate.getUTCDay();
+
+  if (dayIndex === 0 || dayIndex === 6) {
+    return { ...restaurant, status: "closed", message: "Ei lounastarjoilua tänään.", items: [] };
+  }
+
+  const abbreviation = KOTO_DAY_ABBREVIATIONS[dayIndex];
+  const dayOfMonth = localDate.getUTCDate();
+  const month = localDate.getUTCMonth() + 1;
+  const dateLabel = `${dayOfMonth}.${month}.`;
+  const paragraphPattern = /<p\b[^>]*>([\s\S]*?)<\/p>/gi;
+  const datePattern = new RegExp(`^${abbreviation}\\s+0?${dayOfMonth}\\.0?${month}\\.`);
+  const headings = [...html.matchAll(paragraphPattern)].filter((match) => datePattern.test(stripTags(match[1])));
+
+  if (!headings.length) {
+    throw new Error(`${restaurant.name}: päivän ${abbreviation} ${dateLabel} listaa ei löytynyt`);
+  }
+
+  const heading = headings.at(-1);
+  const afterHeading = html.slice(heading.index + heading[0].length);
+  const listMatch = afterHeading.match(/^\s*<ul[^>]*>([\s\S]*?)<\/ul>/i);
+  if (!listMatch) throw new Error(`${restaurant.name}: päivän annoslistaa ei löytynyt`);
+
+  const items = [...listMatch[1].matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)]
+    .map((match) => stripTags(match[1]))
+    .filter(Boolean)
+    .map((title) => ({ type: "Lounas", title, description: "", diet: "", price: "" }));
+
+  return {
+    ...restaurant,
+    status: items.length ? "ok" : "closed",
+    message: items.length ? "" : "Päivän listaa ei ole julkaistu.",
+    items,
+  };
+}
+
 async function fetchJson(url) {
   const response = await fetch(url, {
     headers: { "user-agent": "Lounaslista/1.0 (+https://github.com/backtooth/Lounas)" },
@@ -173,12 +226,14 @@ function failedRestaurant(restaurant, error) {
 }
 
 export async function fetchRestaurants(dateKey) {
-  const [dylan, lunchhub, fuudii] = await Promise.all([
+  const [dylan, lunchhub, fuudii, sapusca, koto] = await Promise.all([
     fetchJson(RESTAURANTS.dylan.apiUrl).then((payload) => parseLounastajaPayload(payload, RESTAURANTS.dylan, dateKey)).catch((error) => failedRestaurant(RESTAURANTS.dylan, error)),
     fetchJson(RESTAURANTS.lunchhub.apiUrl).then((payload) => parseLounastajaPayload(payload, RESTAURANTS.lunchhub, dateKey)).catch((error) => failedRestaurant(RESTAURANTS.lunchhub, error)),
     fetchLatin1(RESTAURANTS.fuudii.sourceUrl).then((html) => parseFuudiiHtml(html, RESTAURANTS.fuudii, dateKey)).catch((error) => failedRestaurant(RESTAURANTS.fuudii, error)),
+    fetchJson(RESTAURANTS.sapusca.apiUrl).then((payload) => parseLounastajaPayload(payload, RESTAURANTS.sapusca, dateKey)).catch((error) => failedRestaurant(RESTAURANTS.sapusca, error)),
+    fetchLatin1(RESTAURANTS.koto.sourceUrl).then((html) => parseKotoHtml(html, RESTAURANTS.koto, dateKey)).catch((error) => failedRestaurant(RESTAURANTS.koto, error)),
   ]);
-  return [dylan, lunchhub, fuudii].map(({ apiUrl: _apiUrl, ...restaurant }) => restaurant);
+  return [dylan, lunchhub, fuudii, sapusca, koto].map(({ apiUrl: _apiUrl, ...restaurant }) => restaurant);
 }
 
 export function createTodayData(dateKey, restaurants, generatedAt = new Date().toISOString()) {

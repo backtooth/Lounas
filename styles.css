@@ -48,6 +48,8 @@ h2 { margin: 0; font-size: clamp(2.4rem, 5vw, 4.3rem); }
 .restaurant-card::before { position: absolute; top: 0; left: 0; width: 100%; height: 4px; content: ""; background: var(--green); }
 .restaurant-card:nth-child(2)::before { background: var(--orange); }
 .restaurant-card:nth-child(3)::before { background: #d4a72c; }
+.restaurant-card:nth-child(4)::before { background: #8c6c91; }
+.restaurant-card:nth-child(5)::before { background: #b75042; }
 .restaurant-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
 .restaurant-number { margin: 0 0 8px; color: var(--muted); font-size: .67rem; font-weight: 700; letter-spacing: .15em; text-transform: uppercase; }
 .restaurant-name { margin: 0; font-size: clamp(1.65rem, 3vw, 2.2rem); line-height: 1; }

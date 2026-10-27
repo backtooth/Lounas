@@ -5,8 +5,10 @@ Yhden sivun lounasnäkymä, joka näyttää vain tämän päivän tarjonnan:
 - Dylan Vaisala
 - Lunch Hub
 - Fuudii
+- Ravintola Sapusca
+- Koto Kaivoksela
 
-Päivä päätellään aina `Europe/Helsinki`-aikavyöhykkeellä. Dylanin ja Lunch Hubin listat luetaan ravintoloiden käyttämästä julkisesta Lounastaja-rajapinnasta, Fuudiin lista ravintolan omalta verkkosivulta.
+Päivä päätellään aina `Europe/Helsinki`-aikavyöhykkeellä. Dylanin, Lunch Hubin ja Sapuscan listat luetaan ravintoloiden käyttämästä julkisesta Lounastaja-rajapinnasta. Fuudiin ja Koto Kaivokselan listat luetaan ravintoloiden omilta verkkosivuilta.
 
 ## Käyttö
 

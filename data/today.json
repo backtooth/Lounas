@@ -2,7 +2,7 @@
   "date": "2026-10-27",
   "weekday": "Tiistai",
   "displayDate": "27. lokakuuta 2026",
-  "generatedAt": "2026-10-27T14:27:20.946Z",
+  "generatedAt": "2026-10-27T16:04:54.097Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -142,6 +142,117 @@
           "title": "Rähmäpullapeltiä ja tiikerikastiketta",
           "description": "",
           "diet": "laktoositon",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "name": "Ravintola Sapusca",
+      "address": "Jönsaksentie 4",
+      "hours": "ma–pe 10.15–14 · la 11–14",
+      "sourceUrl": "https://www.sapusca.fi/",
+      "status": "ok",
+      "message": "",
+      "items": [
+        {
+          "type": "Kotiruoka",
+          "title": "Uunimerilohta kevätsipuli-smetanakastikkeessa & tuoretta tilliä",
+          "description": "",
+          "diet": "L · G",
+          "price": ""
+        },
+        {
+          "type": "Kotiruoka",
+          "title": "Kerma-sipulikastikkeessa haudutettua naudanmaksaa&puolukkahillo",
+          "description": "",
+          "diet": "L · G",
+          "price": ""
+        },
+        {
+          "type": "Kasvisruoka",
+          "title": "Kermainen suppilovahvero-halloumijuustopasta & parmesaani",
+          "description": "",
+          "diet": "L",
+          "price": ""
+        },
+        {
+          "type": "Kasvisruoka",
+          "title": "Falafelpyörykät&hummus&tsatsiki",
+          "description": "",
+          "diet": "M · G",
+          "price": ""
+        },
+        {
+          "type": "Lisuke",
+          "title": "Perunamuusi (L, G), tilliperunat (M, G) basmatiriisi",
+          "description": "",
+          "diet": "M · G",
+          "price": ""
+        },
+        {
+          "type": "Keitto",
+          "title": "Borchkeitto & smetana",
+          "description": "",
+          "diet": "L · G",
+          "price": ""
+        },
+        {
+          "type": "Jälkiruoka",
+          "title": "Uunituoreet korvapuustit",
+          "description": "",
+          "diet": "L",
+          "price": ""
+        },
+        {
+          "type": "Lisuke",
+          "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
+          "description": "",
+          "diet": "",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "name": "Koto Kaivoksela",
+      "address": "Vetokuja 4",
+      "hours": "10.30–14.00",
+      "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
+      "status": "ok",
+      "message": "",
+      "items": [
+        {
+          "type": "Lounas",
+          "title": "Mausteinen pulled pork L, G",
+          "description": "",
+          "diet": "",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Paneroituja broilerinleikkeitä,  tacomajoneesi L",
+          "description": "",
+          "diet": "",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Sienirisotto L , G",
+          "description": "",
+          "diet": "",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Paahdettu paprikakeitto M, G",
+          "description": "",
+          "diet": "",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Pieni makea & kahvi/ tee",
+          "description": "",
+          "diet": "",
           "price": ""
         }
       ]

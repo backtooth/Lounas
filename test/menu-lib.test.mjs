@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { getFinnishWeekday, getHelsinkiDateKey, parseFuudiiHtml, parseLounastajaPayload } from "../scripts/menu-lib.mjs";
+import { getFinnishWeekday, getHelsinkiDateKey, parseFuudiiHtml, parseKotoHtml, parseLounastajaPayload } from "../scripts/menu-lib.mjs";
 
 const restaurant = { name: "Testiravintola", address: "Testikatu 1", hours: "10–14", sourceUrl: "https://example.com" };
 
@@ -48,4 +48,23 @@ test("Fuudii-parseri valitsee oikean päivälohkon ja purkaa entiteetit", () => 
   assert.deepEqual(result.items, [{
     type: "Lounas", title: "Lohi & perunaa", description: "Tillillä maustettu", diet: "gluteeniton, laktoositon", price: "",
   }]);
+});
+
+test("Koto-parseri valitsee päivän sekä päivämäärän eikä vanhaa listaa", () => {
+  const html = `
+    <p>TI 20.10.</p><ul><li><p>Vanhan viikon ruoka</p></li></ul>
+    <p>MA 26.10.</p><ul><li><p>Maanantain ruoka</p></li></ul>
+    <p class="font_8">TI 27.10.&nbsp;</p>
+    <ul class="font_8">
+      <li><p>Mausteinen pulled pork L, G</p></li>
+      <li><p>Paneroituja broilerinleikkeit&auml; L</p></li>
+    </ul>
+    <p>KE 28.10.</p><ul><li><p>Keskiviikon ruoka</p></li></ul>`;
+
+  const result = parseKotoHtml(html, restaurant, "2026-10-27");
+  assert.equal(result.status, "ok");
+  assert.deepEqual(result.items.map((item) => item.title), [
+    "Mausteinen pulled pork L, G",
+    "Paneroituja broilerinleikkeitä L",
+  ]);
 });
