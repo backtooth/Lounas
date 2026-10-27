@@ -20,6 +20,6 @@ node scripts/build.mjs
 
 `update-menu.mjs` kirjoittaa päivän listan tiedostoon `data/today.json`. `build.mjs` kokoaa julkaistavat tiedostot `dist`-hakemistoon. Palvele projektin juurta tai `dist`-hakemistoa millä tahansa staattisia tiedostoja tarjoavalla palvelimella.
 
-## Automaattinen päivitys
+## Automaattinen päivitys ja julkaisu
 
-Ajasta palvelimella tai CI-palvelussa komento `node scripts/update-menu.mjs` ennen sivun buildia. Komento säilyttää edellisen päivitysajan, jos päivän sisältö ei ole muuttunut, ja palauttaa virhekoodin vain, jos yksikään ravintolalähde ei vastaa.
+GitHub Actions päivittää listan aamupäivän aikana, tallentaa muuttuneen päivän datan ja julkaisee `dist`-hakemiston GitHub Pagesiin. Päivityskomento säilyttää edellisen päivitysajan, jos päivän sisältö ei ole muuttunut, ja palauttaa virhekoodin vain, jos yksikään ravintolalähde ei vastaa.

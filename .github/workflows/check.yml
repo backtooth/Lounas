@@ -1,26 +1,68 @@
-name: Tarkista sivu
+name: Päivitä lounaat ja julkaise
 
 on:
   push:
-  pull_request:
+    branches: [master]
+  schedule:
+    # Päivitä aamupäivän aikana useasti; commit syntyy vain sisällön muuttuessa.
+    - cron: "15 4,6,8,10 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Hae repo
         uses: actions/checkout@v6
+
       - name: Ota Node.js käyttöön
         uses: actions/setup-node@v6
         with:
           node-version: 24
+
       - name: Testaa parserit
         run: node --test
+
       - name: Päivitä päivän data
         run: node scripts/update-menu.mjs
+
+      - name: Tallenna muuttunut lista
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/today.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Päivitä päivän lounaat"
+            git push
+          fi
+
       - name: Rakenna sivu
         run: node scripts/build.mjs
+
+      - name: Valmistele GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Paketoi sivu
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Julkaise GitHub Pagesiin
+        id: deployment
+        uses: actions/deploy-pages@v4
