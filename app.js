@@ -1,6 +1,18 @@
 const restaurantsElement = document.querySelector("#restaurants");
 const restaurantTemplate = document.querySelector("#restaurant-template");
 const menuItemTemplate = document.querySelector("#menu-item-template");
+const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
+
+function getHelsinkiDateKey(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Helsinki",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+  const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
+  return `${values.year}-${values.month}-${values.day}`;
+}
 
 function setText(root, selector, value) {
   root.querySelector(selector).textContent = value || "";
@@ -56,10 +68,23 @@ function formatUpdated(timestamp) {
 }
 
 async function init() {
+  restaurantsElement.setAttribute("aria-busy", "true");
   try {
     const response = await fetch(`data/today.json?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
+
+    if (data.date !== getHelsinkiDateKey()) {
+      document.querySelector("#weekday").textContent = "Tänään";
+      document.querySelector("#date").textContent = "Listaa päivitetään";
+      document.querySelector("#updated").textContent = "Haetaan päivän lounaita…";
+      restaurantsElement.replaceChildren();
+      const message = document.createElement("p");
+      message.className = "error-message";
+      message.textContent = "Tämän päivän lounaslistaa päivitetään parhaillaan. Sivu yrittää uudelleen automaattisesti.";
+      restaurantsElement.append(message);
+      return;
+    }
 
     document.querySelector("#weekday").textContent = data.weekday;
     document.querySelector("#date").textContent = data.displayDate;
@@ -80,3 +105,8 @@ async function init() {
 }
 
 init();
+setInterval(init, REFRESH_INTERVAL_MS);
+window.addEventListener("focus", init);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden) init();
+});

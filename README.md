@@ -24,4 +24,6 @@ node scripts/build.mjs
 
 ## Automaattinen päivitys ja julkaisu
 
-GitHub Actions päivittää listan aamupäivän aikana, tallentaa muuttuneen päivän datan ja julkaisee `dist`-hakemiston GitHub Pagesiin. Päivityskomento säilyttää edellisen päivitysajan, jos päivän sisältö ei ole muuttunut, ja palauttaa virhekoodin vain, jos yksikään ravintolalähde ei vastaa.
+GitHub Actions päivittää listan puolen tunnin välein ravintoloiden aukioloaikojen ympärillä, tallentaa muuttuneen päivän datan ja julkaisee `dist`-hakemiston GitHub Pagesiin. Päivityskomento säilyttää edellisen päivitysajan, jos päivän sisältö ei ole muuttunut, ja palauttaa virhekoodin vain, jos yksikään ravintolalähde ei vastaa.
+
+Selain tarkistaa datan päivämäärän Helsingin aikavyöhykkeellä viiden minuutin välein ja aina, kun sivulle palataan. Eilistä listaa ei näytetä uuden päivän listana, vaan sivu odottaa automaattisesti seuraavaa onnistunutta päivitystä.

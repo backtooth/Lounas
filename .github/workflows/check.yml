@@ -4,8 +4,9 @@ on:
   push:
     branches: [master]
   schedule:
-    # Päivitä aamupäivän aikana useasti; commit syntyy vain sisällön muuttuessa.
-    - cron: "15 4,6,8,10 * * *"
+    # GitHubin cron käyttää UTC-aikaa. Epätasaiset minuutit vähentävät ruuhkaviiveitä.
+    # Ajetaan puolen tunnin välein 05.17–16.47/06.17–17.47 Helsingin ajassa.
+    - cron: "17,47 3-14 * * *"
   workflow_dispatch:
 
 permissions:
@@ -20,6 +21,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Hae repo
         uses: actions/checkout@v6
