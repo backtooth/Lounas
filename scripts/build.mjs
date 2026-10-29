@@ -10,6 +10,8 @@ await Promise.all([
   cp(resolve(root, "index.html"), resolve(dist, "index.html")),
   cp(resolve(root, "styles.css"), resolve(dist, "styles.css")),
   cp(resolve(root, "app.js"), resolve(dist, "app.js")),
+  cp(resolve(root, "menu-date.js"), resolve(dist, "menu-date.js")),
   cp(resolve(root, "data", "today.json"), resolve(dist, "data", "today.json")),
+  cp(resolve(root, "data", "week.json"), resolve(dist, "data", "week.json")),
 ]);
 console.log(`Staattinen sivu luotu: ${dist}`);

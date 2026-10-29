@@ -53,6 +53,16 @@ export function getFinnishWeekday(dateKey) {
   return FINNISH_WEEKDAYS[new Date(`${dateKey}T12:00:00Z`).getUTCDay()];
 }
 
+export function getWeekDateKeys(dateKey) {
+  const monday = new Date(`${dateKey}T12:00:00Z`);
+  monday.setUTCDate(monday.getUTCDate() - (monday.getUTCDay() + 6) % 7);
+  return Array.from({ length: 7 }, (_, index) => {
+    const day = new Date(monday);
+    day.setUTCDate(day.getUTCDate() + index);
+    return day.toISOString().slice(0, 10);
+  });
+}
+
 function capitalize(value) {
   return value ? value[0].toUpperCase() + value.slice(1) : "";
 }
@@ -225,15 +235,30 @@ function failedRestaurant(restaurant, error) {
   return { ...restaurant, status: "error", message: "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.", items: [] };
 }
 
+export async function fetchRestaurantDays(dateKeys) {
+  // Hae jokainen lähde vain kerran ja poimi siitä viikon päivät.
+  const restaurants = Object.values(RESTAURANTS);
+  const sources = await Promise.allSettled(restaurants.map((restaurant) =>
+    restaurant.apiUrl ? fetchJson(restaurant.apiUrl) : fetchLatin1(restaurant.sourceUrl),
+  ));
+  return Object.fromEntries(dateKeys.map((dateKey) => [dateKey, restaurants.map((restaurant, index) => {
+    let result;
+    try {
+      const source = sources[index];
+      if (source.status === "rejected") throw source.reason;
+      const parse = restaurant.apiUrl ? parseLounastajaPayload
+        : restaurant === RESTAURANTS.fuudii ? parseFuudiiHtml : parseKotoHtml;
+      result = parse(source.value, restaurant, dateKey);
+    } catch (error) {
+      result = failedRestaurant(restaurant, error);
+    }
+    const { apiUrl: _apiUrl, ...publicRestaurant } = result;
+    return publicRestaurant;
+  })]));
+}
+
 export async function fetchRestaurants(dateKey) {
-  const [dylan, lunchhub, fuudii, sapusca, koto] = await Promise.all([
-    fetchJson(RESTAURANTS.dylan.apiUrl).then((payload) => parseLounastajaPayload(payload, RESTAURANTS.dylan, dateKey)).catch((error) => failedRestaurant(RESTAURANTS.dylan, error)),
-    fetchJson(RESTAURANTS.lunchhub.apiUrl).then((payload) => parseLounastajaPayload(payload, RESTAURANTS.lunchhub, dateKey)).catch((error) => failedRestaurant(RESTAURANTS.lunchhub, error)),
-    fetchLatin1(RESTAURANTS.fuudii.sourceUrl).then((html) => parseFuudiiHtml(html, RESTAURANTS.fuudii, dateKey)).catch((error) => failedRestaurant(RESTAURANTS.fuudii, error)),
-    fetchJson(RESTAURANTS.sapusca.apiUrl).then((payload) => parseLounastajaPayload(payload, RESTAURANTS.sapusca, dateKey)).catch((error) => failedRestaurant(RESTAURANTS.sapusca, error)),
-    fetchLatin1(RESTAURANTS.koto.sourceUrl).then((html) => parseKotoHtml(html, RESTAURANTS.koto, dateKey)).catch((error) => failedRestaurant(RESTAURANTS.koto, error)),
-  ]);
-  return [dylan, lunchhub, fuudii, sapusca, koto].map(({ apiUrl: _apiUrl, ...restaurant }) => restaurant);
+  return (await fetchRestaurantDays([dateKey]))[dateKey];
 }
 
 export function createTodayData(dateKey, restaurants, generatedAt = new Date().toISOString()) {

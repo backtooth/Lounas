@@ -24,6 +24,8 @@ node scripts/build.mjs
 
 ## Automaattinen päivitys ja julkaisu
 
-GitHub Actions päivittää listan puolen tunnin välein ravintoloiden aukioloaikojen ympärillä, tallentaa muuttuneen päivän datan ja julkaisee `dist`-hakemiston GitHub Pagesiin. Päivityskomento säilyttää edellisen päivitysajan, jos päivän sisältö ei ole muuttunut, ja palauttaa virhekoodin vain, jos yksikään ravintolalähde ei vastaa.
+GitHub Actions yrittää päivittää listan puolen tunnin välein ympäri vuorokauden, tallentaa muuttuneet listat ja julkaisee `dist`-hakemiston GitHub Pagesiin. Päivityskomento säilyttää edellisen päivitysajan, jos viikon sisältö ei ole muuttunut, ja keskeyttää tallentamatta, jos yksikään ravintolalähde ei vastaa.
 
-Selain tarkistaa datan päivämäärän Helsingin aikavyöhykkeellä viiden minuutin välein ja aina, kun sivulle palataan. Eilistä listaa ei näytetä uuden päivän listana, vaan sivu odottaa automaattisesti seuraavaa onnistunutta päivitystä.
+Julkaisu sisältää myös koko kuluvan viikon listat tiedostossa `data/week.json`. Selain valitsee oikean päivän Helsingin ajan mukaan, vaikka päivän ajastettu ajo viivästyisi. Jokainen ravintolalähde haetaan kerran päivitystä kohti. Ajastus toimii ympäri vuorokauden, mutta GitHub voi viivästyttää tai ohittaa ajoja.
+
+Selain tarkistaa datan viiden minuutin välein ja aina sivulle palattaessa. Eilistä listaa ei näytetä uuden päivän listana. Jos päivän tietoja ei löydy kummastakaan tiedostosta, näytetään saatavuusilmoitus ja linkit ravintoloiden omille sivuille. Päivitysaika sisältää päivämäärän, jos tiedot haettiin aiempana päivänä.

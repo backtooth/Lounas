@@ -1,18 +1,9 @@
+import { getHelsinkiDateKey, selectTodayData } from "./menu-date.js";
+
 const restaurantsElement = document.querySelector("#restaurants");
 const restaurantTemplate = document.querySelector("#restaurant-template");
 const menuItemTemplate = document.querySelector("#menu-item-template");
 const REFRESH_INTERVAL_MS = 5 * 60 * 1000;
-
-function getHelsinkiDateKey(date = new Date()) {
-  const parts = new Intl.DateTimeFormat("en-CA", {
-    timeZone: "Europe/Helsinki",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit",
-  }).formatToParts(date);
-  const values = Object.fromEntries(parts.map(({ type, value }) => [type, value]));
-  return `${values.year}-${values.month}-${values.day}`;
-}
 
 function setText(root, selector, value) {
   root.querySelector(selector).textContent = value || "";
@@ -64,25 +55,37 @@ function formatUpdated(timestamp) {
     hour: "2-digit",
     minute: "2-digit",
   }).format(new Date(timestamp));
-  return `Päivitetty klo ${formatted}`;
+  const sameDay = getHelsinkiDateKey(new Date(timestamp)) === getHelsinkiDateKey();
+  const date = new Intl.DateTimeFormat("fi-FI", { timeZone: "Europe/Helsinki", day: "numeric", month: "numeric" }).format(new Date(timestamp));
+  return `Päivitetty ${sameDay ? "" : `${date} `}klo ${formatted}`;
 }
 
+let loading = false;
 async function init() {
+  if (loading) return;
+  loading = true;
   restaurantsElement.setAttribute("aria-busy", "true");
   try {
-    const response = await fetch(`data/today.json?v=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json();
+    const results = await Promise.allSettled(["today", "week"].map(async (file) => {
+      const response = await fetch(`data/${file}.json?v=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    }));
+    const [today, week] = results.map((result) => result.status === "fulfilled" ? result.value : null);
+    const data = selectTodayData(today, week, getHelsinkiDateKey());
 
-    if (data.date !== getHelsinkiDateKey()) {
+    if (!data) {
       document.querySelector("#weekday").textContent = "Tänään";
-      document.querySelector("#date").textContent = "Listaa päivitetään";
-      document.querySelector("#updated").textContent = "Haetaan päivän lounaita…";
+      document.querySelector("#date").textContent = new Intl.DateTimeFormat("fi-FI", { timeZone: "Europe/Helsinki", dateStyle: "long" }).format(new Date());
+      document.querySelector("#updated").textContent = "Päivän tiedot eivät ole saatavilla";
+      document.title = "Tänään lounaaksi";
       restaurantsElement.replaceChildren();
       const message = document.createElement("p");
       message.className = "error-message";
-      message.textContent = "Tämän päivän lounaslistaa päivitetään parhaillaan. Sivu yrittää uudelleen automaattisesti.";
+      message.textContent = "Tämän päivän lounaslistaa ei ole vielä saatavilla. Tarkista ravintoloiden omat sivut. Yritämme hakua automaattisesti uudelleen.";
       restaurantsElement.append(message);
+      const restaurants = today?.restaurants || Object.values(week?.days || {})[0]?.restaurants || [];
+      restaurants.forEach((restaurant, index) => restaurantsElement.append(renderRestaurant({ ...restaurant, status: "error", items: [], message: "Tarkista päivän lounas ravintolan omalta sivulta." }, index)));
       return;
     }
 
@@ -100,6 +103,7 @@ async function init() {
     restaurantsElement.append(message);
     console.error(error);
   } finally {
+    loading = false;
     restaurantsElement.setAttribute("aria-busy", "false");
   }
 }

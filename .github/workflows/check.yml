@@ -5,8 +5,8 @@ on:
     branches: [master]
   schedule:
     # GitHubin cron käyttää UTC-aikaa. Epätasaiset minuutit vähentävät ruuhkaviiveitä.
-    # Ajetaan puolen tunnin välein 05.17–16.47/06.17–17.47 Helsingin ajassa.
-    - cron: "17,47 3-14 * * *"
+    # Ajetaan myös yön aikana, jotta viikon vaihtuminen ei odota aamun ajoa.
+    - cron: "17,47 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -41,7 +41,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/today.json
+          git add data/today.json data/week.json
           if ! git diff --cached --quiet; then
             git commit -m "Päivitä päivän lounaat"
             git push
