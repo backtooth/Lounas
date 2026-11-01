@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-31",
-  "weekday": "Lauantai",
-  "displayDate": "31. lokakuuta 2026",
+  "date": "2026-11-01",
+  "weekday": "Sunnuntai",
+  "displayDate": "1. marraskuuta 2026",
   "generatedAt": "2026-10-31T00:48:24.636Z",
   "restaurants": [
     {
@@ -36,73 +36,9 @@
       "address": "Jönsaksentie 4",
       "hours": "ma–pe 10.15–14 · la 11–14",
       "sourceUrl": "https://www.sapusca.fi/",
-      "status": "ok",
-      "message": "",
-      "items": [
-        {
-          "type": "Lisuke",
-          "title": "Lauantai lounas klo 11:00-14:00 ( buffet 15, 50 - eläkeläiset vain 13, 50 )",
-          "description": "",
-          "diet": "",
-          "price": ""
-        },
-        {
-          "type": "Kotiruoka",
-          "title": "Paistetut lohimedaljongit (merilohta) & lime-aiolikastike",
-          "description": "",
-          "diet": "L · G",
-          "price": ""
-        },
-        {
-          "type": "Kotiruoka",
-          "title": "Yön yli kypsytetty BBQ-kassler",
-          "description": "",
-          "diet": "L · G",
-          "price": ""
-        },
-        {
-          "type": "Kotiruoka",
-          "title": "Pesto-tomaattikanapaistileikkeet",
-          "description": "",
-          "diet": "L · G",
-          "price": ""
-        },
-        {
-          "type": "Kasvisruoka",
-          "title": "Zuckini, munakoiso, paprikapaistos& tsatsiki",
-          "description": "",
-          "diet": "L · G · K",
-          "price": ""
-        },
-        {
-          "type": "Lisuke",
-          "title": "Perunamuusi (l, g), paahdetut perunat (m, g) yrttiriisi(m.g)",
-          "description": "",
-          "diet": "",
-          "price": ""
-        },
-        {
-          "type": "Keitto",
-          "title": "Pinaattikeitto&kananmunanpuolikkaat",
-          "description": "",
-          "diet": "L · G",
-          "price": ""
-        },
-        {
-          "type": "Jälkiruoka",
-          "title": "Uunituoreet voisilmäpullat",
-          "description": "",
-          "diet": "L",
-          "price": ""
-        },
-        {
-          "type": "Lisuke",
-          "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
-          "description": "",
-          "diet": "",
-          "price": ""
-        }
-      ]
+      "status": "closed",
+      "message": "Ravintola on tänään suljettu.",
+      "items": []
     },
     {
       "name": "Koto Kaivoksela",
