@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-02T09:59:11.305Z",
+  "generatedAt": "2026-11-02T20:22:35.136Z",
   "days": {
     "2026-11-02": {
       "date": "2026-11-02",
       "weekday": "Maanantai",
       "displayDate": "2. marraskuuta 2026",
-      "generatedAt": "2026-11-02T09:59:11.305Z",
+      "generatedAt": "2026-11-02T20:22:35.136Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -273,7 +273,7 @@
       "date": "2026-11-03",
       "weekday": "Tiistai",
       "displayDate": "3. marraskuuta 2026",
-      "generatedAt": "2026-11-02T09:59:11.305Z",
+      "generatedAt": "2026-11-02T20:22:35.136Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -441,7 +441,7 @@
             },
             {
               "type": "Kotiruoka",
-              "title": "Voissa paistettuja Puulan muikkuja&tilli-kermaviilikastike",
+              "title": "Voissa paistettuja muikkuja&tilli-kermaviilikastike",
               "description": "",
               "diet": "L",
               "price": ""
@@ -541,7 +541,7 @@
       "date": "2026-11-04",
       "weekday": "Keskiviikko",
       "displayDate": "4. marraskuuta 2026",
-      "generatedAt": "2026-11-02T09:59:11.305Z",
+      "generatedAt": "2026-11-02T20:22:35.136Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -643,7 +643,7 @@
           "items": [
             {
               "type": "Lounas",
-              "title": "Nokilohta ja sitrusaiolia",
+              "title": "Nokilohta ja valkoviinikastikkeessa",
               "description": "",
               "diet": "gluteeniton, laktoositon",
               "price": ""
@@ -737,7 +737,7 @@
             },
             {
               "type": "Jälkiruoka",
-              "title": "Aprikoosikiisseli & kermavaahto",
+              "title": "Kuningatarkiisseli&kermavaahto",
               "description": "",
               "diet": "L · G",
               "price": ""
@@ -802,7 +802,7 @@
       "date": "2026-11-05",
       "weekday": "Torstai",
       "displayDate": "5. marraskuuta 2026",
-      "generatedAt": "2026-11-02T09:59:11.305Z",
+      "generatedAt": "2026-11-02T20:22:35.136Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1063,7 +1063,7 @@
       "date": "2026-11-06",
       "weekday": "Perjantai",
       "displayDate": "6. marraskuuta 2026",
-      "generatedAt": "2026-11-02T09:59:11.305Z",
+      "generatedAt": "2026-11-02T20:22:35.136Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1345,7 +1345,7 @@
       "date": "2026-11-07",
       "weekday": "Lauantai",
       "displayDate": "7. marraskuuta 2026",
-      "generatedAt": "2026-11-02T09:59:11.305Z",
+      "generatedAt": "2026-11-02T20:22:35.136Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1462,7 +1462,7 @@
       "date": "2026-11-08",
       "weekday": "Sunnuntai",
       "displayDate": "8. marraskuuta 2026",
-      "generatedAt": "2026-11-02T09:59:11.305Z",
+      "generatedAt": "2026-11-02T20:22:35.136Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
