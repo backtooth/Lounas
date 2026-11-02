@@ -2,7 +2,7 @@
   "date": "2026-11-02",
   "weekday": "Maanantai",
   "displayDate": "2. marraskuuta 2026",
-  "generatedAt": "2026-11-01T22:50:20.934Z",
+  "generatedAt": "2026-11-02T09:59:11.305Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -119,7 +119,7 @@
         {
           "type": "Lounas",
           "title": "Kana club sandwich",
-          "description": "Paahdettu paahtoleipää jonka välissä paahdettua kanaa, curry-texaspete majoneesia. Paahdetaan uunissa rapeaksi.",
+          "description": "Paahdettu paahtoleipää jonka välissä paahdettua kanaa, curry-texaspete majoneesia ja juustoa. Paahdetaan uunissa rapeaksi.",
           "diet": "laktoositon",
           "price": ""
         },
