@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-03T17:51:36.685Z",
+  "generatedAt": "2026-11-04T11:36:13.371Z",
   "days": {
     "2026-11-02": {
       "date": "2026-11-02",
       "weekday": "Maanantai",
       "displayDate": "2. marraskuuta 2026",
-      "generatedAt": "2026-11-03T17:51:36.685Z",
+      "generatedAt": "2026-11-04T11:36:13.371Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -273,7 +273,7 @@
       "date": "2026-11-03",
       "weekday": "Tiistai",
       "displayDate": "3. marraskuuta 2026",
-      "generatedAt": "2026-11-03T17:51:36.685Z",
+      "generatedAt": "2026-11-04T11:36:13.371Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -541,7 +541,7 @@
       "date": "2026-11-04",
       "weekday": "Keskiviikko",
       "displayDate": "4. marraskuuta 2026",
-      "generatedAt": "2026-11-03T17:51:36.685Z",
+      "generatedAt": "2026-11-04T11:36:13.371Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -802,7 +802,7 @@
       "date": "2026-11-05",
       "weekday": "Torstai",
       "displayDate": "5. marraskuuta 2026",
-      "generatedAt": "2026-11-03T17:51:36.685Z",
+      "generatedAt": "2026-11-04T11:36:13.371Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -905,8 +905,8 @@
             {
               "type": "Lounas",
               "title": "Fuudiin avoburgerit",
-              "description": "Avoburgerit, Reinin naudan jauhelihaa 150g, sriratza majoneesia,cheddar juustoa.",
-              "diet": "gluteeniton, laktoositon",
+              "description": "Briossi,Reinin naudan jauheliha pihvi 150g, sriratza coleslaw ja pepper jack juustoa. Lisä twistiä saat pienellä \"ranch majo tuunauksella\". Ja kyllä muuten maistuu.",
+              "diet": "laktoositon",
               "price": ""
             },
             {
@@ -918,29 +918,29 @@
             },
             {
               "type": "Lounas",
-              "title": "Mac & Cheese ja paahdettua sipulia ja pekonia",
-              "description": "Makaroonia ja juustokastiketta . Mikä sen parempaa?",
+              "title": "Mac & Cheese ja paahdettua sipulia.",
+              "description": "Makaroonia ja täyteläistä juustokastiketta. Mikä sen parempaa?",
               "diet": "laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
               "title": "Valkosipuli papuja",
-              "description": "",
+              "description": "Valkosipuli voissa paahdetut pavut.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
               "title": "Paahdetut tuoreet kasvikset",
-              "description": "",
+              "description": "Fuudiin veget pienellä suolalla ja pippurilla.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
               "title": "Pannukakkua , kermavaahtoa ja kotihilloa",
-              "description": "Fuudiin omalla reseptillä työstettyä pannukakkua,marjahilloa ja kermavaahtoa.",
+              "description": "Fuudiin omalla reseptillä työstettyä pannukakkua ja talon marjahillolla. Kokonaisuutta kevennetään vielä kermavaahdolla.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             }
@@ -1063,7 +1063,7 @@
       "date": "2026-11-06",
       "weekday": "Perjantai",
       "displayDate": "6. marraskuuta 2026",
-      "generatedAt": "2026-11-03T17:51:36.685Z",
+      "generatedAt": "2026-11-04T11:36:13.371Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1345,7 +1345,7 @@
       "date": "2026-11-07",
       "weekday": "Lauantai",
       "displayDate": "7. marraskuuta 2026",
-      "generatedAt": "2026-11-03T17:51:36.685Z",
+      "generatedAt": "2026-11-04T11:36:13.371Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1462,7 +1462,7 @@
       "date": "2026-11-08",
       "weekday": "Sunnuntai",
       "displayDate": "8. marraskuuta 2026",
-      "generatedAt": "2026-11-03T17:51:36.685Z",
+      "generatedAt": "2026-11-04T11:36:13.371Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
