@@ -2,7 +2,7 @@
   "date": "2026-11-05",
   "weekday": "Torstai",
   "displayDate": "5. marraskuuta 2026",
-  "generatedAt": "2026-11-04T11:36:13.371Z",
+  "generatedAt": "2026-11-05T15:49:16.041Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -141,7 +141,7 @@
           "type": "Lounas",
           "title": "Pannukakkua , kermavaahtoa ja kotihilloa",
           "description": "Fuudiin omalla reseptillä työstettyä pannukakkua ja talon marjahillolla. Kokonaisuutta kevennetään vielä kermavaahdolla.",
-          "diet": "gluteeniton, laktoositon",
+          "diet": "laktoositon",
           "price": ""
         }
       ]
