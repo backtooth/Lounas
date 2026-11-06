@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-06T09:54:48.623Z",
+  "generatedAt": "2026-11-06T17:29:57.350Z",
   "days": {
     "2026-11-02": {
       "date": "2026-11-02",
       "weekday": "Maanantai",
       "displayDate": "2. marraskuuta 2026",
-      "generatedAt": "2026-11-06T09:54:48.623Z",
+      "generatedAt": "2026-11-06T17:29:57.350Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -227,45 +227,9 @@
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Lounas",
-              "title": "Lihamureke kermasipulikastike L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Parmesanpaneroitua broileria, basilikamajoneesia L,G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Chili-sin carne M,G veg",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Parsakaalikeitto L,G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pieni makea & kahvi / tee",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "error",
+          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
+          "items": []
         }
       ]
     },
@@ -273,7 +237,7 @@
       "date": "2026-11-03",
       "weekday": "Tiistai",
       "displayDate": "3. marraskuuta 2026",
-      "generatedAt": "2026-11-06T09:54:48.623Z",
+      "generatedAt": "2026-11-06T17:29:57.350Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -495,45 +459,9 @@
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Lounas",
-              "title": "Sveitsinleike, savujuustokastike L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Siirappivoissa haudutetut kaalikääryleet L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "KOTO:n kasvispihvit L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Chili-tomaattikeitto L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pieni makea & kahvi / tee",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "error",
+          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
+          "items": []
         }
       ]
     },
@@ -541,7 +469,7 @@
       "date": "2026-11-04",
       "weekday": "Keskiviikko",
       "displayDate": "4. marraskuuta 2026",
-      "generatedAt": "2026-11-06T09:54:48.623Z",
+      "generatedAt": "2026-11-06T17:29:57.350Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -756,45 +684,9 @@
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Lounas",
-              "title": "Paahdettua lohta, sitruuna-yrttikermaviili L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Chorizopyörykät & pastaa L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Bataatti-tofuvuoka M, G veg",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pinaattikeitto L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pieni makea & kahvi / tee",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "error",
+          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
+          "items": []
         }
       ]
     },
@@ -802,7 +694,7 @@
       "date": "2026-11-05",
       "weekday": "Torstai",
       "displayDate": "5. marraskuuta 2026",
-      "generatedAt": "2026-11-06T09:54:48.623Z",
+      "generatedAt": "2026-11-06T17:29:57.350Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1017,45 +909,9 @@
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Lounas",
-              "title": "Kievin kana L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Kauraiset silakkapihvit, remouladekastike L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Kasvismoussaka L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Hernekeitto M,G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "KOTO:n pannukakkua ja hilloa, kahvi / tee",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "error",
+          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
+          "items": []
         }
       ]
     },
@@ -1063,7 +919,7 @@
       "date": "2026-11-06",
       "weekday": "Perjantai",
       "displayDate": "6. marraskuuta 2026",
-      "generatedAt": "2026-11-06T09:54:48.623Z",
+      "generatedAt": "2026-11-06T17:29:57.350Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1306,45 +1162,9 @@
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Lounas",
-              "title": "Wieninleike L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Massamankanacurry L,G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Punajuuri-juustokiusaus L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Lohikeitto L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pieni makea & kahvi / tee",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "error",
+          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
+          "items": []
         }
       ]
     },
@@ -1352,7 +1172,7 @@
       "date": "2026-11-07",
       "weekday": "Lauantai",
       "displayDate": "7. marraskuuta 2026",
-      "generatedAt": "2026-11-06T09:54:48.623Z",
+      "generatedAt": "2026-11-06T17:29:57.350Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1469,7 +1289,7 @@
       "date": "2026-11-08",
       "weekday": "Sunnuntai",
       "displayDate": "8. marraskuuta 2026",
-      "generatedAt": "2026-11-06T09:54:48.623Z",
+      "generatedAt": "2026-11-06T17:29:57.350Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
