@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-05T15:49:16.041Z",
+  "generatedAt": "2026-11-06T09:54:48.623Z",
   "days": {
     "2026-11-02": {
       "date": "2026-11-02",
       "weekday": "Maanantai",
       "displayDate": "2. marraskuuta 2026",
-      "generatedAt": "2026-11-05T15:49:16.041Z",
+      "generatedAt": "2026-11-06T09:54:48.623Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -273,7 +273,7 @@
       "date": "2026-11-03",
       "weekday": "Tiistai",
       "displayDate": "3. marraskuuta 2026",
-      "generatedAt": "2026-11-05T15:49:16.041Z",
+      "generatedAt": "2026-11-06T09:54:48.623Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -541,7 +541,7 @@
       "date": "2026-11-04",
       "weekday": "Keskiviikko",
       "displayDate": "4. marraskuuta 2026",
-      "generatedAt": "2026-11-05T15:49:16.041Z",
+      "generatedAt": "2026-11-06T09:54:48.623Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -802,7 +802,7 @@
       "date": "2026-11-05",
       "weekday": "Torstai",
       "displayDate": "5. marraskuuta 2026",
-      "generatedAt": "2026-11-05T15:49:16.041Z",
+      "generatedAt": "2026-11-06T09:54:48.623Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1063,7 +1063,7 @@
       "date": "2026-11-06",
       "weekday": "Perjantai",
       "displayDate": "6. marraskuuta 2026",
-      "generatedAt": "2026-11-05T15:49:16.041Z",
+      "generatedAt": "2026-11-06T09:54:48.623Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1137,6 +1137,13 @@
               "title": "Rapeaa frittikalaa",
               "description": "",
               "diet": "M",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Rapeaa tofua & Texas-Pete kastiketta",
+              "description": "",
+              "diet": "G · V",
               "price": "10,80 €"
             },
             {
@@ -1345,7 +1352,7 @@
       "date": "2026-11-07",
       "weekday": "Lauantai",
       "displayDate": "7. marraskuuta 2026",
-      "generatedAt": "2026-11-05T15:49:16.041Z",
+      "generatedAt": "2026-11-06T09:54:48.623Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1462,7 +1469,7 @@
       "date": "2026-11-08",
       "weekday": "Sunnuntai",
       "displayDate": "8. marraskuuta 2026",
-      "generatedAt": "2026-11-05T15:49:16.041Z",
+      "generatedAt": "2026-11-06T09:54:48.623Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",

@@ -2,7 +2,7 @@
   "date": "2026-11-06",
   "weekday": "Perjantai",
   "displayDate": "6. marraskuuta 2026",
-  "generatedAt": "2026-11-05T15:49:16.041Z",
+  "generatedAt": "2026-11-06T09:54:48.623Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -76,6 +76,13 @@
           "title": "Rapeaa frittikalaa",
           "description": "",
           "diet": "M",
+          "price": "10,80 €"
+        },
+        {
+          "type": "Kasvisruoka",
+          "title": "Rapeaa tofua & Texas-Pete kastiketta",
+          "description": "",
+          "diet": "G · V",
           "price": "10,80 €"
         },
         {
