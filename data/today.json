@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-07",
-  "weekday": "Lauantai",
-  "displayDate": "7. marraskuuta 2026",
+  "date": "2026-11-08",
+  "weekday": "Sunnuntai",
+  "displayDate": "8. marraskuuta 2026",
   "generatedAt": "2026-11-07T02:23:30.858Z",
   "restaurants": [
     {
@@ -36,73 +36,9 @@
       "address": "Jönsaksentie 4",
       "hours": "ma–pe 10.15–14 · la 11–14",
       "sourceUrl": "https://www.sapusca.fi/",
-      "status": "ok",
-      "message": "",
-      "items": [
-        {
-          "type": "Lisuke",
-          "title": "ISÄNPÄIVÄLOUNASBUFFET 16,50 € ELÄKELÄISET 14,50 € .. LAPSET 0-4 4 € /4-7 8 € /7-10 10 € /10-12 12€ KLO 11–15 ..",
-          "description": "",
-          "diet": "",
-          "price": ""
-        },
-        {
-          "type": "Kotiruoka",
-          "title": "Paistetut lohimedaljongit&remouladekastike",
-          "description": "",
-          "diet": "L · G",
-          "price": ""
-        },
-        {
-          "type": "Kotiruoka",
-          "title": "Ylikypsää häränpaistia rosmariini-punaviinikastikkeessa",
-          "description": "",
-          "diet": "L · G",
-          "price": ""
-        },
-        {
-          "type": "Kotiruoka",
-          "title": "Sweet chili -kanapaistileikkeet",
-          "description": "",
-          "diet": "M · L · G",
-          "price": ""
-        },
-        {
-          "type": "Kasvisruoka",
-          "title": "Hunaja-feta-rakuunaporkkanat",
-          "description": "",
-          "diet": "M · G",
-          "price": ""
-        },
-        {
-          "type": "Lisuke",
-          "title": "Perunamuusi (l, g), basmatiriisi (m, g) tilliperunat",
-          "description": "",
-          "diet": "M · L · G",
-          "price": ""
-        },
-        {
-          "type": "Keitto",
-          "title": "Mausteinen tomaattikeitto&rapeaksi paistettua pekonia",
-          "description": "",
-          "diet": "M · G",
-          "price": ""
-        },
-        {
-          "type": "Jälkiruoka",
-          "title": "ISÄNPÄIVÄMANSIKKAKERMAKAKKU",
-          "description": "",
-          "diet": "L",
-          "price": ""
-        },
-        {
-          "type": "Lisuke",
-          "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
-          "description": "",
-          "diet": "",
-          "price": ""
-        }
-      ]
+      "status": "closed",
+      "message": "Ravintola on tänään suljettu.",
+      "items": []
     },
     {
       "name": "Koto Kaivoksela",
