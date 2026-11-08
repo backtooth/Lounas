@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-08T09:29:46.946Z",
+  "generatedAt": "2026-11-08T16:21:18.964Z",
   "days": {
     "2026-11-02": {
       "date": "2026-11-02",
       "weekday": "Maanantai",
       "displayDate": "2. marraskuuta 2026",
-      "generatedAt": "2026-11-08T09:29:46.946Z",
+      "generatedAt": "2026-11-08T16:21:18.964Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -21,45 +21,9 @@
           "address": "Vanha Nurmijärventie 21, Rak. 4",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.lunchhub.fi/",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Keitto",
-              "title": "Kermaista palsternakka-tryffelikeittoa",
-              "description": "",
-              "diet": "L · G",
-              "price": "7,10 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Herkullista Lyonin kanaa",
-              "description": "",
-              "diet": "L · G",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Kasvisruoka",
-              "title": "Soijaa ja sieniä lyoninkastikkeessa",
-              "description": "",
-              "diet": "G · V",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Lisuke",
-              "title": "Paahdetut timjamiperunat",
-              "description": "",
-              "diet": "G · V",
-              "price": ""
-            },
-            {
-              "type": "Jälkiruoka",
-              "title": "Maanantain makea",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "closed",
+          "message": "Ravintola on tänään suljettu.",
+          "items": []
         },
         {
           "name": "Fuudii",
@@ -144,7 +108,7 @@
       "date": "2026-11-03",
       "weekday": "Tiistai",
       "displayDate": "3. marraskuuta 2026",
-      "generatedAt": "2026-11-08T09:29:46.946Z",
+      "generatedAt": "2026-11-08T16:21:18.964Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -160,38 +124,9 @@
           "address": "Vanha Nurmijärventie 21, Rak. 4",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.lunchhub.fi/",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Keitto",
-              "title": "Tomaatti-fetakeittoa",
-              "description": "",
-              "diet": "L · G",
-              "price": "7,10 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Herkullista lasagnea",
-              "description": "",
-              "diet": "L",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Kasvisruoka",
-              "title": "Vegaanista lasagnea",
-              "description": "",
-              "diet": "G · V",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Jälkiruoka",
-              "title": "Vaniljavanukasta",
-              "description": "",
-              "diet": "L · G",
-              "price": ""
-            }
-          ]
+          "status": "closed",
+          "message": "Ravintola on tänään suljettu.",
+          "items": []
         },
         {
           "name": "Fuudii",
@@ -276,7 +211,7 @@
       "date": "2026-11-04",
       "weekday": "Keskiviikko",
       "displayDate": "4. marraskuuta 2026",
-      "generatedAt": "2026-11-08T09:29:46.946Z",
+      "generatedAt": "2026-11-08T16:21:18.964Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -292,45 +227,9 @@
           "address": "Vanha Nurmijärventie 21, Rak. 4",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.lunchhub.fi/",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Keitto",
-              "title": "Perinteistä hernekeittoa (V,G), kinkkua (M,G) ja tuoretta sipulia (V,G)",
-              "description": "",
-              "diet": "",
-              "price": "7,10 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Kotimaista kanaa tikka masalakastikkeessa",
-              "description": "",
-              "diet": "L · G",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Kasvisruoka",
-              "title": "Intialainen pinaatticurry",
-              "description": "",
-              "diet": "G · V",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Lisuke",
-              "title": "Höyrytettyä basmatiriisiä",
-              "description": "",
-              "diet": "G · V",
-              "price": ""
-            },
-            {
-              "type": "Jälkiruoka",
-              "title": "Pannukakkua (L), hilloa (V,G) ja kermavaahtoa (L,G) (vegaaninen, gluteeniton annos keittiöstä)",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "closed",
+          "message": "Ravintola on tänään suljettu.",
+          "items": []
         },
         {
           "name": "Fuudii",
@@ -408,7 +307,7 @@
       "date": "2026-11-05",
       "weekday": "Torstai",
       "displayDate": "5. marraskuuta 2026",
-      "generatedAt": "2026-11-08T09:29:46.946Z",
+      "generatedAt": "2026-11-08T16:21:18.964Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -424,45 +323,9 @@
           "address": "Vanha Nurmijärventie 21, Rak. 4",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.lunchhub.fi/",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Keitto",
-              "title": "Kasvis tom yam-keittoa",
-              "description": "",
-              "diet": "G · V",
-              "price": "7,10 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Chimichurri-nyhtöpossua",
-              "description": "",
-              "diet": "M · G",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Kasvisruoka",
-              "title": "Chimichurri oumphia & kasviksia",
-              "description": "",
-              "diet": "G · V",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Lisuke",
-              "title": "Bataatti ranskalaiset",
-              "description": "",
-              "diet": "G · V",
-              "price": ""
-            },
-            {
-              "type": "Jälkiruoka",
-              "title": "Nutella-rahkaa",
-              "description": "",
-              "diet": "L · G · SP",
-              "price": ""
-            }
-          ]
+          "status": "closed",
+          "message": "Ravintola on tänään suljettu.",
+          "items": []
         },
         {
           "name": "Fuudii",
@@ -540,7 +403,7 @@
       "date": "2026-11-06",
       "weekday": "Perjantai",
       "displayDate": "6. marraskuuta 2026",
-      "generatedAt": "2026-11-08T09:29:46.946Z",
+      "generatedAt": "2026-11-08T16:21:18.964Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -556,52 +419,9 @@
           "address": "Vanha Nurmijärventie 21, Rak. 4",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.lunchhub.fi/",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Keitto",
-              "title": "Puutarhurin kasvissosekeittoa",
-              "description": "",
-              "diet": "L · G",
-              "price": "7,10 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Kanansiipiä (MG) & Texas Pete -voikastiketta (L, G)",
-              "description": "",
-              "diet": "",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Rapeaa frittikalaa",
-              "description": "",
-              "diet": "M",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Kasvisruoka",
-              "title": "Rapeaa tofua & Texas-Pete kastiketta",
-              "description": "",
-              "diet": "G · V",
-              "price": "10,80 €"
-            },
-            {
-              "type": "Lisuke",
-              "title": "Rapeita ranskalaisia",
-              "description": "",
-              "diet": "G · V",
-              "price": ""
-            },
-            {
-              "type": "Jälkiruoka",
-              "title": "Perjantain herkku :)",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "closed",
+          "message": "Ravintola on tänään suljettu.",
+          "items": []
         },
         {
           "name": "Fuudii",
@@ -686,7 +506,7 @@
       "date": "2026-11-07",
       "weekday": "Lauantai",
       "displayDate": "7. marraskuuta 2026",
-      "generatedAt": "2026-11-08T09:29:46.946Z",
+      "generatedAt": "2026-11-08T16:21:18.964Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -739,7 +559,7 @@
       "date": "2026-11-08",
       "weekday": "Sunnuntai",
       "displayDate": "8. marraskuuta 2026",
-      "generatedAt": "2026-11-08T09:29:46.946Z",
+      "generatedAt": "2026-11-08T16:21:18.964Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
