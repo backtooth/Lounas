@@ -2,7 +2,7 @@
   "date": "2026-11-10",
   "weekday": "Tiistai",
   "displayDate": "10. marraskuuta 2026",
-  "generatedAt": "2026-11-09T18:49:18.674Z",
+  "generatedAt": "2026-11-10T09:50:50.844Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -125,7 +125,7 @@
         },
         {
           "type": "Lounas",
-          "title": "Rakuuna porkkanat ja Feta-juustoa",
+          "title": "Porkkanaa ja Feta-juustoa",
           "description": "",
           "diet": "gluteeniton, laktoositon",
           "price": ""

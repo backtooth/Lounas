@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-09T18:49:18.674Z",
+  "generatedAt": "2026-11-10T09:50:50.844Z",
   "days": {
     "2026-11-09": {
       "date": "2026-11-09",
       "weekday": "Maanantai",
       "displayDate": "9. marraskuuta 2026",
-      "generatedAt": "2026-11-09T18:49:18.674Z",
+      "generatedAt": "2026-11-10T09:50:50.844Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -266,7 +266,7 @@
       "date": "2026-11-10",
       "weekday": "Tiistai",
       "displayDate": "10. marraskuuta 2026",
-      "generatedAt": "2026-11-09T18:49:18.674Z",
+      "generatedAt": "2026-11-10T09:50:50.844Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -389,7 +389,7 @@
             },
             {
               "type": "Lounas",
-              "title": "Rakuuna porkkanat ja Feta-juustoa",
+              "title": "Porkkanaa ja Feta-juustoa",
               "description": "",
               "diet": "gluteeniton, laktoositon",
               "price": ""
@@ -527,7 +527,7 @@
       "date": "2026-11-11",
       "weekday": "Keskiviikko",
       "displayDate": "11. marraskuuta 2026",
-      "generatedAt": "2026-11-09T18:49:18.674Z",
+      "generatedAt": "2026-11-10T09:50:50.844Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -781,7 +781,7 @@
       "date": "2026-11-12",
       "weekday": "Torstai",
       "displayDate": "12. marraskuuta 2026",
-      "generatedAt": "2026-11-09T18:49:18.674Z",
+      "generatedAt": "2026-11-10T09:50:50.844Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1042,7 +1042,7 @@
       "date": "2026-11-13",
       "weekday": "Perjantai",
       "displayDate": "13. marraskuuta 2026",
-      "generatedAt": "2026-11-09T18:49:18.674Z",
+      "generatedAt": "2026-11-10T09:50:50.844Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1324,7 +1324,7 @@
       "date": "2026-11-14",
       "weekday": "Lauantai",
       "displayDate": "14. marraskuuta 2026",
-      "generatedAt": "2026-11-09T18:49:18.674Z",
+      "generatedAt": "2026-11-10T09:50:50.844Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1441,7 +1441,7 @@
       "date": "2026-11-15",
       "weekday": "Sunnuntai",
       "displayDate": "15. marraskuuta 2026",
-      "generatedAt": "2026-11-09T18:49:18.674Z",
+      "generatedAt": "2026-11-10T09:50:50.844Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
