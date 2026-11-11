@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-11T10:58:04.426Z",
+  "generatedAt": "2026-11-11T18:42:16.394Z",
   "days": {
     "2026-11-09": {
       "date": "2026-11-09",
       "weekday": "Maanantai",
       "displayDate": "9. marraskuuta 2026",
-      "generatedAt": "2026-11-11T10:58:04.426Z",
+      "generatedAt": "2026-11-11T18:42:16.394Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -266,7 +266,7 @@
       "date": "2026-11-10",
       "weekday": "Tiistai",
       "displayDate": "10. marraskuuta 2026",
-      "generatedAt": "2026-11-11T10:58:04.426Z",
+      "generatedAt": "2026-11-11T18:42:16.394Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -527,7 +527,7 @@
       "date": "2026-11-11",
       "weekday": "Keskiviikko",
       "displayDate": "11. marraskuuta 2026",
-      "generatedAt": "2026-11-11T10:58:04.426Z",
+      "generatedAt": "2026-11-11T18:42:16.394Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -781,7 +781,7 @@
       "date": "2026-11-12",
       "weekday": "Torstai",
       "displayDate": "12. marraskuuta 2026",
-      "generatedAt": "2026-11-11T10:58:04.426Z",
+      "generatedAt": "2026-11-11T18:42:16.394Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -884,27 +884,27 @@
             {
               "type": "Lounas",
               "title": "Fuudiin jumbolihapullat ja Choronkastiketta",
-              "description": "",
+              "description": "Itse tehdyt Jumbolihapullat, kokin mittojen mukaan pyöriteltynä ja bearnaisekastiketta, mikä tuunattu tomaattipyreellä.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
-              "title": "Nokilohta ja katkarapuskagenia",
-              "description": "",
+              "title": "Nokilohta Blachened",
+              "description": "Tuoretta kirjolohta kovalla lämmöllä käsiteltynä. Kaikki mikä on mustaa on kypsää. Jyrki Sukula 2001, ravintola Via.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
-              "title": "Talon blinit",
-              "description": "",
+              "title": "Talon blinit ja Jäämerenraputartaria",
+              "description": "Tämä itse tehty blini saa ravintola Lasipalatsin bliniviikot näyttämään Ikean lihapulla-annokselta. Pelkkää pullaa, ilman täytettä lisämaksusta. Blineihin kannattaa laittaa päälle, käsinkuorituista liemikatkaravuista tehty skagen. Rapuskagenissa kiva takapotku, emmekä peri lisämaksua jos tulee santsaamaan.",
               "diet": "laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
-              "title": "Uuniperunaa",
+              "title": "Uuniperunaa ja riisiä",
               "description": "",
               "diet": "gluteeniton, laktoositon",
               "price": ""
@@ -1042,7 +1042,7 @@
       "date": "2026-11-13",
       "weekday": "Perjantai",
       "displayDate": "13. marraskuuta 2026",
-      "generatedAt": "2026-11-11T10:58:04.426Z",
+      "generatedAt": "2026-11-11T18:42:16.394Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1194,7 +1194,7 @@
             {
               "type": "Lounas",
               "title": "Turkinpippuri pehmis",
-              "description": "Kansa vaatii perjantain kunniaksi fuudiin perinteistä turkinpippuri pehmistä. Ja sitä keittiö myös tarjoaa. Hyvää alkavaa viikonloppua!",
+              "description": "Kansa vaatii perjantain kunniaksi Fuudiin perinteistä turkinpippuri pehmistä. Ja sitä keittiö myös tarjoaa. Varoitus. Pehmyt jäätelön sisältämä aito turkinpippuri, mitä käytetään salmarissa voi aiheuttaa ennenaikaisen viikonlopun alkamisen tunnetta. Hyvää alkavaa viikonloppua!",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             }
@@ -1324,7 +1324,7 @@
       "date": "2026-11-14",
       "weekday": "Lauantai",
       "displayDate": "14. marraskuuta 2026",
-      "generatedAt": "2026-11-11T10:58:04.426Z",
+      "generatedAt": "2026-11-11T18:42:16.394Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1441,7 +1441,7 @@
       "date": "2026-11-15",
       "weekday": "Sunnuntai",
       "displayDate": "15. marraskuuta 2026",
-      "generatedAt": "2026-11-11T10:58:04.426Z",
+      "generatedAt": "2026-11-11T18:42:16.394Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
