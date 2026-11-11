@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-10T09:50:50.844Z",
+  "generatedAt": "2026-11-11T10:58:04.426Z",
   "days": {
     "2026-11-09": {
       "date": "2026-11-09",
       "weekday": "Maanantai",
       "displayDate": "9. marraskuuta 2026",
-      "generatedAt": "2026-11-10T09:50:50.844Z",
+      "generatedAt": "2026-11-11T10:58:04.426Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -266,7 +266,7 @@
       "date": "2026-11-10",
       "weekday": "Tiistai",
       "displayDate": "10. marraskuuta 2026",
-      "generatedAt": "2026-11-10T09:50:50.844Z",
+      "generatedAt": "2026-11-11T10:58:04.426Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -527,7 +527,7 @@
       "date": "2026-11-11",
       "weekday": "Keskiviikko",
       "displayDate": "11. marraskuuta 2026",
-      "generatedAt": "2026-11-10T09:50:50.844Z",
+      "generatedAt": "2026-11-11T10:58:04.426Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -709,7 +709,7 @@
             },
             {
               "type": "Keitto",
-              "title": "Häränlihaborchkeitto&smetana",
+              "title": "Borchkeitto&smetana",
               "description": "",
               "diet": "L · G",
               "price": ""
@@ -781,7 +781,7 @@
       "date": "2026-11-12",
       "weekday": "Torstai",
       "displayDate": "12. marraskuuta 2026",
-      "generatedAt": "2026-11-10T09:50:50.844Z",
+      "generatedAt": "2026-11-11T10:58:04.426Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1042,7 +1042,7 @@
       "date": "2026-11-13",
       "weekday": "Perjantai",
       "displayDate": "13. marraskuuta 2026",
-      "generatedAt": "2026-11-10T09:50:50.844Z",
+      "generatedAt": "2026-11-11T10:58:04.426Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1152,14 +1152,14 @@
             {
               "type": "Lounas",
               "title": "Porsaan leikettä ja bearnaise majoneesia",
-              "description": "Fuudiin perinteiset possun leikkeet. Rapea kuori ja suussa sulavaa mureaa lihaa. Viimeistellään bearnaise dipillä.",
+              "description": "Fuudiin perinteiset possun leikkeet. Rapea kuori ja suussa sulavaa mureaa porsaan lihaa. Viimeistellään bearnaise dipillä.",
               "diet": "laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
-              "title": "Pippuri härkää",
-              "description": "Yön ylihaudutettua naudan lihaa kermaisessa pippurikastikkeessa.",
+              "title": "Pippurihärkä-chorizoruukku.",
+              "description": "Yön yli savu-uunissa haudutettua naudanlihaa kermaisessa pippurikastikkeessa. Kastike viimeistellään paahdetulla chorizolla,paprikalla ja sipulilla.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
@@ -1172,7 +1172,7 @@
             },
             {
               "type": "Lounas",
-              "title": "Parmesaani gratinoidut tomaatit",
+              "title": "mozzarella gratinoidut tomaatit",
               "description": "",
               "diet": "gluteeniton, laktoositon",
               "price": ""
@@ -1194,7 +1194,7 @@
             {
               "type": "Lounas",
               "title": "Turkinpippuri pehmis",
-              "description": "",
+              "description": "Kansa vaatii perjantain kunniaksi fuudiin perinteistä turkinpippuri pehmistä. Ja sitä keittiö myös tarjoaa. Hyvää alkavaa viikonloppua!",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             }
@@ -1324,7 +1324,7 @@
       "date": "2026-11-14",
       "weekday": "Lauantai",
       "displayDate": "14. marraskuuta 2026",
-      "generatedAt": "2026-11-10T09:50:50.844Z",
+      "generatedAt": "2026-11-11T10:58:04.426Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1441,7 +1441,7 @@
       "date": "2026-11-15",
       "weekday": "Sunnuntai",
       "displayDate": "15. marraskuuta 2026",
-      "generatedAt": "2026-11-10T09:50:50.844Z",
+      "generatedAt": "2026-11-11T10:58:04.426Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",

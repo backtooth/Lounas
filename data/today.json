@@ -2,7 +2,7 @@
   "date": "2026-11-11",
   "weekday": "Keskiviikko",
   "displayDate": "11. marraskuuta 2026",
-  "generatedAt": "2026-11-10T09:50:50.844Z",
+  "generatedAt": "2026-11-11T10:58:04.426Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -184,7 +184,7 @@
         },
         {
           "type": "Keitto",
-          "title": "Häränlihaborchkeitto&smetana",
+          "title": "Borchkeitto&smetana",
           "description": "",
           "diet": "L · G",
           "price": ""
