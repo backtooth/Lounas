@@ -2,7 +2,7 @@
   "date": "2026-11-12",
   "weekday": "Torstai",
   "displayDate": "12. marraskuuta 2026",
-  "generatedAt": "2026-11-11T18:42:16.394Z",
+  "generatedAt": "2026-11-12T08:20:24.268Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -105,7 +105,7 @@
         {
           "type": "Lounas",
           "title": "Fuudiin jumbolihapullat ja Choronkastiketta",
-          "description": "Itse tehdyt Jumbolihapullat, kokin mittojen mukaan pyöriteltynä ja bearnaisekastiketta, mikä tuunattu tomaattipyreellä.",
+          "description": "Itse tehdyt Jumbolihapullat ja bearnaisekastiketta, mikä tuunattu tomaattipyreellä.",
           "diet": "gluteeniton, laktoositon",
           "price": ""
         },
