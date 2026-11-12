@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-12T08:20:24.268Z",
+  "generatedAt": "2026-11-12T17:05:57.286Z",
   "days": {
     "2026-11-09": {
       "date": "2026-11-09",
       "weekday": "Maanantai",
       "displayDate": "9. marraskuuta 2026",
-      "generatedAt": "2026-11-12T08:20:24.268Z",
+      "generatedAt": "2026-11-12T17:05:57.286Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -266,7 +266,7 @@
       "date": "2026-11-10",
       "weekday": "Tiistai",
       "displayDate": "10. marraskuuta 2026",
-      "generatedAt": "2026-11-12T08:20:24.268Z",
+      "generatedAt": "2026-11-12T17:05:57.286Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -527,7 +527,7 @@
       "date": "2026-11-11",
       "weekday": "Keskiviikko",
       "displayDate": "11. marraskuuta 2026",
-      "generatedAt": "2026-11-12T08:20:24.268Z",
+      "generatedAt": "2026-11-12T17:05:57.286Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -781,7 +781,7 @@
       "date": "2026-11-12",
       "weekday": "Torstai",
       "displayDate": "12. marraskuuta 2026",
-      "generatedAt": "2026-11-12T08:20:24.268Z",
+      "generatedAt": "2026-11-12T17:05:57.286Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1042,7 +1042,7 @@
       "date": "2026-11-13",
       "weekday": "Perjantai",
       "displayDate": "13. marraskuuta 2026",
-      "generatedAt": "2026-11-12T08:20:24.268Z",
+      "generatedAt": "2026-11-12T17:05:57.286Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1151,8 +1151,8 @@
           "items": [
             {
               "type": "Lounas",
-              "title": "Porsaan leikettä ja bearnaise majoneesia",
-              "description": "Fuudiin perinteiset possun leikkeet. Rapea kuori ja suussa sulavaa mureaa porsaan lihaa. Viimeistellään bearnaise dipillä.",
+              "title": "Porsaanleikettä ja bearnaisemajoneesia",
+              "description": "Fuudiin perinteiset possunleikkeet. Rapea kuori ja suussa sulavaa mureaa porsaanlihaa. Viimeistele bearnaisedipillä.",
               "diet": "laktoositon",
               "price": ""
             },
@@ -1166,13 +1166,13 @@
             {
               "type": "Lounas",
               "title": "Paahdettua kanan paistileikettä ja texaspete maustevoita.",
-              "description": "Broilerin paistileikettä jonka mausteinen pinta on paahdettu kuumassa uunissa. Viimeistellään Texaspete maustevoilla.",
+              "description": "Broilerin paistileikettä, jonka mausteinen pinta on paahdettu kuumassa uunissa. Viimeistellään Texaspete maustevoilla.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
-              "title": "mozzarella gratinoidut tomaatit",
+              "title": "Mozzarellajuustolla gratinoidut tomaatit",
               "description": "",
               "diet": "gluteeniton, laktoositon",
               "price": ""
@@ -1186,8 +1186,8 @@
             },
             {
               "type": "Lounas",
-              "title": "Jasmin riisiä",
-              "description": "",
+              "title": "Peruna muusia",
+              "description": "Fuudiin kuohkeaa ja perinteistä perunamuusia.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
@@ -1324,7 +1324,7 @@
       "date": "2026-11-14",
       "weekday": "Lauantai",
       "displayDate": "14. marraskuuta 2026",
-      "generatedAt": "2026-11-12T08:20:24.268Z",
+      "generatedAt": "2026-11-12T17:05:57.286Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1441,7 +1441,7 @@
       "date": "2026-11-15",
       "weekday": "Sunnuntai",
       "displayDate": "15. marraskuuta 2026",
-      "generatedAt": "2026-11-12T08:20:24.268Z",
+      "generatedAt": "2026-11-12T17:05:57.286Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
