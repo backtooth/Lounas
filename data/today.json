@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-12",
-  "weekday": "Torstai",
-  "displayDate": "12. marraskuuta 2026",
+  "date": "2026-11-13",
+  "weekday": "Perjantai",
+  "displayDate": "13. marraskuuta 2026",
   "generatedAt": "2026-11-12T17:05:57.286Z",
   "restaurants": [
     {
@@ -14,35 +14,42 @@
       "items": [
         {
           "type": "Keitto",
-          "title": "Perinteistä hernekeittoa (M,G) Sipulia (V,G) Sinappia (V,G) (Kasvisannos pyydettäessä keittiöstä)",
+          "title": "Red curry maustettua linssikeittoa (V, G)",
           "description": "",
           "diet": "",
           "price": "6,90 €"
         },
         {
           "type": "Kotiruoka",
-          "title": "Mureaa possun kassleria punaviinikastikkeessa (L, G) Koskenlaskijalla maustettuja kermaperunoita (L, G)",
+          "title": "Pulled pork BBQ (M, G)",
           "description": "",
           "diet": "",
           "price": "11,20 €"
         },
         {
           "type": "Kotiruoka",
-          "title": "Paellaa, lohta ja jättirapuja (M, G) Sahrami-aiolia (M, G)",
+          "title": "Dylanin \"loaded fries\" buffa! Rapeita ranskalaisia (V, G) Cheddar kastiketta (L, G) Valkosipulimajoneesia (M, G) Chilikastiketta (V, G) Jalopenoja (V, G)",
           "description": "",
           "diet": "",
           "price": "11,20 €"
         },
         {
-          "type": "Kasvisruoka",
-          "title": "Vege burritoja maukkalla soijatäytteellä (V)",
+          "type": "Kotiruoka",
+          "title": "Paahdettua kanaa vuohenjuustokastikkeessa (VL, G) Tomaatti-timjamiriisiä (V, G)",
+          "description": "",
+          "diet": "",
+          "price": "11,20 €"
+        },
+        {
+          "type": "Kotiruoka",
+          "title": "Mausteista chili sin carnea (V, G)",
           "description": "",
           "diet": "",
           "price": "11,20 €"
         },
         {
           "type": "Jälkiruoka",
-          "title": "Kotitekoista pannukakkua lisukkeineen (L)",
+          "title": "Dylanin mokkapalat ❤️ (L)",
           "description": "",
           "diet": "",
           "price": ""
@@ -59,37 +66,37 @@
       "items": [
         {
           "type": "Keitto",
-          "title": "Kermaista metsäsienikeittoa",
+          "title": "Intialaista kasvissosekeittoa",
           "description": "",
-          "diet": "L · G",
+          "diet": "G · V",
           "price": "7,10 €"
         },
         {
           "type": "Kotiruoka",
-          "title": "Smoky-BBQ- marinoituja porsaan ribsejä",
+          "title": "Kebabbia tomaattikastikeessa (M,G) ja valkosipulikastiketta (L,G)",
           "description": "",
-          "diet": "M · G",
+          "diet": "",
           "price": "10,80 €"
         },
         {
           "type": "Kasvisruoka",
-          "title": "BBQ-oumphia ja kasviksia",
+          "title": "Falafelpyöryköitä, mausteista tomaattikastiketta",
           "description": "",
           "diet": "G · V",
           "price": "10,80 €"
         },
         {
           "type": "Lisuke",
-          "title": "Paahdetut chiliperunat",
+          "title": "Rapeita ranskalaisia",
           "description": "",
           "diet": "G · V",
           "price": ""
         },
         {
           "type": "Jälkiruoka",
-          "title": "Kuningatarpiirakkaa ja talon kinuskikastiketta",
+          "title": "Perjantain herkku :)",
           "description": "",
-          "diet": "L",
+          "diet": "",
           "price": ""
         }
       ]
@@ -104,28 +111,28 @@
       "items": [
         {
           "type": "Lounas",
-          "title": "Fuudiin jumbolihapullat ja Choronkastiketta",
-          "description": "Itse tehdyt Jumbolihapullat ja bearnaisekastiketta, mikä tuunattu tomaattipyreellä.",
-          "diet": "gluteeniton, laktoositon",
-          "price": ""
-        },
-        {
-          "type": "Lounas",
-          "title": "Nokilohta Blachened",
-          "description": "Tuoretta kirjolohta kovalla lämmöllä käsiteltynä. Kaikki mikä on mustaa on kypsää. Jyrki Sukula 2001, ravintola Via.",
-          "diet": "gluteeniton, laktoositon",
-          "price": ""
-        },
-        {
-          "type": "Lounas",
-          "title": "Talon blinit ja Jäämerenraputartaria",
-          "description": "Tämä itse tehty blini saa ravintola Lasipalatsin bliniviikot näyttämään Ikean lihapulla-annokselta. Pelkkää pullaa, ilman täytettä lisämaksusta. Blineihin kannattaa laittaa päälle, käsinkuorituista liemikatkaravuista tehty skagen. Rapuskagenissa kiva takapotku, emmekä peri lisämaksua jos tulee santsaamaan.",
+          "title": "Porsaanleikettä ja bearnaisemajoneesia",
+          "description": "Fuudiin perinteiset possunleikkeet. Rapea kuori ja suussa sulavaa mureaa porsaanlihaa. Viimeistele bearnaisedipillä.",
           "diet": "laktoositon",
           "price": ""
         },
         {
           "type": "Lounas",
-          "title": "Uuniperunaa ja riisiä",
+          "title": "Pippurihärkä-chorizoruukku.",
+          "description": "Yön yli savu-uunissa haudutettua naudanlihaa kermaisessa pippurikastikkeessa. Kastike viimeistellään paahdetulla chorizolla,paprikalla ja sipulilla.",
+          "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Paahdettua kanan paistileikettä ja texaspete maustevoita.",
+          "description": "Broilerin paistileikettä, jonka mausteinen pinta on paahdettu kuumassa uunissa. Viimeistellään Texaspete maustevoilla.",
+          "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Mozzarellajuustolla gratinoidut tomaatit",
           "description": "",
           "diet": "gluteeniton, laktoositon",
           "price": ""
@@ -139,9 +146,16 @@
         },
         {
           "type": "Lounas",
-          "title": "Pannukakkua , kermavaahtoa ja kotihilloa",
-          "description": "",
-          "diet": "",
+          "title": "Peruna muusia",
+          "description": "Fuudiin kuohkeaa ja perinteistä perunamuusia.",
+          "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Turkinpippuri pehmis",
+          "description": "Kansa vaatii perjantain kunniaksi Fuudiin perinteistä turkinpippuri pehmistä. Ja sitä keittiö myös tarjoaa. Varoitus. Pehmyt jäätelön sisältämä aito turkinpippuri, mitä käytetään salmarissa voi aiheuttaa ennenaikaisen viikonlopun alkamisen tunnetta. Hyvää alkavaa viikonloppua!",
+          "diet": "gluteeniton, laktoositon",
           "price": ""
         }
       ]
@@ -156,51 +170,58 @@
       "items": [
         {
           "type": "Kotiruoka",
-          "title": "Grillattua merilohta&tartarkastike",
+          "title": "Paholaisenleike (paholaisenhillo, lämmin kastike)",
           "description": "",
-          "diet": "L · G",
+          "diet": "L",
           "price": ""
         },
         {
           "type": "Kotiruoka",
-          "title": "Yön yli kypsytetty karjalanpaisti & puolukkahillo",
+          "title": "Lapinleike (juustoinen savuporokastike )",
+          "description": "",
+          "diet": "L",
+          "price": ""
+        },
+        {
+          "type": "Kotiruoka",
+          "title": "Paistettua merilohta&lime-aioli",
           "description": "",
           "diet": "M · G",
           "price": ""
         },
         {
           "type": "Kotiruoka",
-          "title": "Spaghetti Bolognese& parmesan",
+          "title": "Tandoorikanaa",
           "description": "",
-          "diet": "L",
+          "diet": "L · G",
           "price": ""
         },
         {
           "type": "Kasvisruoka",
-          "title": "Punajuuri-halloumijuustopihvit & tzatziki",
+          "title": "Uuni-yrttikasvikset",
+          "description": "",
+          "diet": "M · G · Veg",
+          "price": ""
+        },
+        {
+          "type": "Lisuke",
+          "title": "Valkosipulikermaperunat (l, g), uunilohkoperunat (l, g), basmatiriisi (m, g)",
+          "description": "",
+          "diet": "",
+          "price": ""
+        },
+        {
+          "type": "Keitto",
+          "title": "Kermainen lohikeitto & saaristolaisleipää",
           "description": "",
           "diet": "L · G",
           "price": ""
         },
         {
-          "type": "Lisuke",
-          "title": "Perunamuusi (L, G), keitetyt perunat (M, G) basmatiriisi",
-          "description": "",
-          "diet": "M · G",
-          "price": ""
-        },
-        {
-          "type": "Keitto",
-          "title": "Hernekeitto",
-          "description": "",
-          "diet": "M · G",
-          "price": ""
-        },
-        {
           "type": "Jälkiruoka",
-          "title": "Pannari, hillo & kermavaahto",
+          "title": "Puolukkavispipuuro",
           "description": "",
-          "diet": "L",
+          "diet": "M · L",
           "price": ""
         },
         {
@@ -222,35 +243,35 @@
       "items": [
         {
           "type": "Lounas",
-          "title": "Paistettua lohta ja katkarapukastiketta L,G",
+          "title": "Ylikypsää härän chuckroll ja paholaisen hilloa L,G",
           "description": "",
           "diet": "",
           "price": ""
         },
         {
           "type": "Lounas",
-          "title": "Mureaa BBQ-porsaanniskaa M,G",
+          "title": "Kebab ja ranskalaiset L,G",
           "description": "",
           "diet": "",
           "price": ""
         },
         {
           "type": "Lounas",
-          "title": "Feta-tomaattipasta L",
+          "title": "KOTO:n punajuuripihvit L tsatsikia L,G",
           "description": "",
           "diet": "",
           "price": ""
         },
         {
           "type": "Lounas",
-          "title": "Hernekeitto M,G",
+          "title": "Sienikeitto L, G",
           "description": "",
           "diet": "",
           "price": ""
         },
         {
           "type": "Lounas",
-          "title": "KOTO:n pannukakkua L hilloa ja kermavaahtoa L,G",
+          "title": "Päivän Jälkiruoka",
           "description": "",
           "diet": "",
           "price": ""
