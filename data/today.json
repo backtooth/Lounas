@@ -2,7 +2,7 @@
   "date": "2026-11-16",
   "weekday": "Maanantai",
   "displayDate": "16. marraskuuta 2026",
-  "generatedAt": "2026-11-16T02:08:33.701Z",
+  "generatedAt": "2026-11-16T09:44:18.892Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -73,7 +73,7 @@
         },
         {
           "type": "Kasvisruoka",
-          "title": "Gochujang-tofua ja kasviksia",
+          "title": "Gochujang-soijaa ja kasviksia",
           "description": "",
           "diet": "G · V",
           "price": "10,80 €"
@@ -105,14 +105,14 @@
         {
           "type": "Lounas",
           "title": "Open Pulled pork cheeseburger",
-          "description": "",
+          "description": "Suussa sulavaa nyhtöpossua, reilusti juustoa.",
           "diet": "laktoositon",
           "price": ""
         },
         {
           "type": "Lounas",
           "title": "Kana Gyros, avocadosalsa ja American Sour cream Dippi",
-          "description": "",
+          "description": "Tuore avokadosalsa tuo raikkautta ja kermaviilidippi viimeistelee makunautinnon.",
           "diet": "gluteeniton, laktoositon",
           "price": ""
         },

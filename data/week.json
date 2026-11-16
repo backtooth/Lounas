@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-16T02:08:33.701Z",
+  "generatedAt": "2026-11-16T09:44:18.892Z",
   "days": {
     "2026-11-16": {
       "date": "2026-11-16",
       "weekday": "Maanantai",
       "displayDate": "16. marraskuuta 2026",
-      "generatedAt": "2026-11-16T02:08:33.701Z",
+      "generatedAt": "2026-11-16T09:44:18.892Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -76,7 +76,7 @@
             },
             {
               "type": "Kasvisruoka",
-              "title": "Gochujang-tofua ja kasviksia",
+              "title": "Gochujang-soijaa ja kasviksia",
               "description": "",
               "diet": "G · V",
               "price": "10,80 €"
@@ -108,14 +108,14 @@
             {
               "type": "Lounas",
               "title": "Open Pulled pork cheeseburger",
-              "description": "",
+              "description": "Suussa sulavaa nyhtöpossua, reilusti juustoa.",
               "diet": "laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
               "title": "Kana Gyros, avocadosalsa ja American Sour cream Dippi",
-              "description": "",
+              "description": "Tuore avokadosalsa tuo raikkautta ja kermaviilidippi viimeistelee makunautinnon.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
@@ -230,7 +230,7 @@
       "date": "2026-11-17",
       "weekday": "Tiistai",
       "displayDate": "17. marraskuuta 2026",
-      "generatedAt": "2026-11-16T02:08:33.701Z",
+      "generatedAt": "2026-11-16T09:44:18.892Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -301,9 +301,9 @@
             },
             {
               "type": "Kasvisruoka",
-              "title": "5 spice -soijasuikaleita ja kasviksia",
+              "title": "5 spice -tofua ja kasviksia",
               "description": "",
-              "diet": "G · V",
+              "diet": "G · V · SK",
               "price": "10,80 €"
             },
             {
@@ -469,7 +469,7 @@
       "date": "2026-11-18",
       "weekday": "Keskiviikko",
       "displayDate": "18. marraskuuta 2026",
-      "generatedAt": "2026-11-16T02:08:33.701Z",
+      "generatedAt": "2026-11-16T09:44:18.892Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -559,9 +559,52 @@
           "address": "Ansatie 5",
           "hours": "9.45–13.00",
           "sourceUrl": "https://www.fuudii.fi/ravintola.html?listtype=lunch&ci=0&showall=true",
-          "status": "closed",
-          "message": "Ei lounastarjoilua tänään.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lounas",
+              "title": "Porsaan \"lankkufile\" bearnaise kastikkeella",
+              "description": "Yön yli marinoitunutta porsaan ulkofilettä joka paistetaan parilalla. Päälle kaadetaan vielä pehmeää bearnaise kastiketta. Ja tuote on valmis lautaselle.",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Naudanliha \"ragu\" pasta",
+              "description": "Päivän pasta. Tomaattinen naudanliha kastike höystettynä parmesaanilla. Tarjoillaan rummon penne pastan kanssa ja ei,kun ääntä kohti.",
+              "diet": "laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Talon curry-broileri club sandwich",
+              "description": "Paahdettua broileria curry majoneesissa. Leipä voidellaan vielä valkosipuli majoneesilla ja paahdetaan uunissa,",
+              "diet": "laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Kasvis pihvit",
+              "description": "Porkkana-kesäkurpitsa pihvejä. Paistettu parilalla voissa ja öljyssä.",
+              "diet": "laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Paahdettua Perunaa",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Paahdetut tuoreet kasvikset",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Ravintola Sapusca",
@@ -644,7 +687,7 @@
       "date": "2026-11-19",
       "weekday": "Torstai",
       "displayDate": "19. marraskuuta 2026",
-      "generatedAt": "2026-11-16T02:08:33.701Z",
+      "generatedAt": "2026-11-16T09:44:18.892Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -741,9 +784,59 @@
           "address": "Ansatie 5",
           "hours": "9.45–13.00",
           "sourceUrl": "https://www.fuudii.fi/ravintola.html?listtype=lunch&ci=0&showall=true",
-          "status": "closed",
-          "message": "Ei lounastarjoilua tänään.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lounas",
+              "title": "Cajun Maustettua Naudanliha Ruukku",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Hk-Lenkkimakkara New Way",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Kana Tortilla vuoka",
+              "description": "",
+              "diet": "laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Täytetty Kesäkurpitsa",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Paahdetut tuoreet kasvikset",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Riisiä",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Pannukakkua , kermavaahtoa ja kotihilloa",
+              "description": "",
+              "diet": "laktoositon",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Ravintola Sapusca",
@@ -833,7 +926,7 @@
       "date": "2026-11-20",
       "weekday": "Perjantai",
       "displayDate": "20. marraskuuta 2026",
-      "generatedAt": "2026-11-16T02:08:33.701Z",
+      "generatedAt": "2026-11-16T09:44:18.892Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -930,9 +1023,52 @@
           "address": "Ansatie 5",
           "hours": "9.45–13.00",
           "sourceUrl": "https://www.fuudii.fi/ravintola.html?listtype=lunch&ci=0&showall=true",
-          "status": "closed",
-          "message": "Ei lounastarjoilua tänään.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lounas",
+              "title": "Porsaanleikkeet ja LimeAioliadippi",
+              "description": "",
+              "diet": "laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Broileria ja paholaisenkastiketta",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Savustettua Lohta",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Cheddarjuusto omelettia",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Paahdetut tuoreet kasvikset",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Tiramisupehmistä",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Ravintola Sapusca",
@@ -1029,7 +1165,7 @@
       "date": "2026-11-21",
       "weekday": "Lauantai",
       "displayDate": "21. marraskuuta 2026",
-      "generatedAt": "2026-11-16T02:08:33.701Z",
+      "generatedAt": "2026-11-16T09:44:18.892Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1139,7 +1275,7 @@
       "date": "2026-11-22",
       "weekday": "Sunnuntai",
       "displayDate": "22. marraskuuta 2026",
-      "generatedAt": "2026-11-16T02:08:33.701Z",
+      "generatedAt": "2026-11-16T09:44:18.892Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
