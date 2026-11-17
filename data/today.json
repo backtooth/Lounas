@@ -2,7 +2,7 @@
   "date": "2026-11-17",
   "weekday": "Tiistai",
   "displayDate": "17. marraskuuta 2026",
-  "generatedAt": "2026-11-16T19:52:43.461Z",
+  "generatedAt": "2026-11-17T11:52:41.929Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -75,7 +75,7 @@
           "type": "Kasvisruoka",
           "title": "5 spice -tofua ja kasviksia",
           "description": "",
-          "diet": "G · V · SK",
+          "diet": "G · V",
           "price": "10,80 €"
         },
         {
