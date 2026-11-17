@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-16",
-  "weekday": "Maanantai",
-  "displayDate": "16. marraskuuta 2026",
+  "date": "2026-11-17",
+  "weekday": "Tiistai",
+  "displayDate": "17. marraskuuta 2026",
   "generatedAt": "2026-11-16T19:52:43.461Z",
   "restaurants": [
     {
@@ -14,35 +14,35 @@
       "items": [
         {
           "type": "Keitto",
-          "title": "Tryffelillä maustettua kukkakaalikeittoa (L,G)",
+          "title": "Kookos-kanakeittoa (M,G)",
           "description": "",
           "diet": "",
           "price": "6,90 €"
         },
         {
           "type": "Kotiruoka",
-          "title": "Pannupihvejä ja paistettua sipulia ruskeakastikkeessa (L, G) Voiperunaa (L, G)",
+          "title": "Maukasta pyttipannua makkaralla (M, G) Paistettua kananmunaa (M, G) Suolakurkkua ja etikkapunajuuria (V, G)",
           "description": "",
           "diet": "",
           "price": "11,20 €"
         },
         {
           "type": "Kotiruoka",
-          "title": "Gyros maustettua kanaa (M, G) Pitaleipää (M) Riisiä (V, G) Yrttijugurttia (L, G) Pikkelöityä sipulia (V, G)",
+          "title": "Lohipyöryköitä (L) Sirusjugurttia (L, G) Muusia (L, G)",
           "description": "",
           "diet": "",
           "price": "11,20 €"
         },
         {
           "type": "Kasvisruoka",
-          "title": "Falafelpyöryköitä (V,G) Talon hummusta (V,G)",
+          "title": "Mausteinen pasta arrabbiata \"MUU\" suikaleilla (V)",
           "description": "",
           "diet": "",
           "price": "11,20 €"
         },
         {
           "type": "Jälkiruoka",
-          "title": "Maanantain makea",
+          "title": "Keksilajitelma",
           "description": "",
           "diet": "",
           "price": ""
@@ -59,35 +59,35 @@
       "items": [
         {
           "type": "Keitto",
-          "title": "Porkkana-inkiväärikeitto",
+          "title": "Mustajuurikeittoa",
           "description": "",
-          "diet": "G · V",
+          "diet": "L · G",
           "price": "7,10 €"
         },
         {
           "type": "Kotiruoka",
-          "title": "Kotimaista kanaa gochujang-kastikkeessa",
+          "title": "Herkullista five spice -possua",
           "description": "",
           "diet": "M · G",
           "price": "10,80 €"
         },
         {
           "type": "Kasvisruoka",
-          "title": "Gochujang-soijaa ja kasviksia",
+          "title": "5 spice -tofua ja kasviksia",
           "description": "",
-          "diet": "G · V",
+          "diet": "G · V · SK",
           "price": "10,80 €"
         },
         {
           "type": "Lisuke",
-          "title": "Höyrytettyä basmatiriisiä",
+          "title": "Soijassa paahdetut nuudelit (glut. keittiöstä)",
           "description": "",
-          "diet": "G · V",
+          "diet": "V",
           "price": ""
         },
         {
           "type": "Jälkiruoka",
-          "title": "Korvapuusti",
+          "title": "Oreo-moussea",
           "description": "",
           "diet": "L",
           "price": ""
@@ -104,37 +104,30 @@
       "items": [
         {
           "type": "Lounas",
-          "title": "Open Pulled pork cheeseburger",
-          "description": "Suussa sulavaa nyhtöpossua, reilusti juustoa.",
-          "diet": "laktoositon",
-          "price": ""
-        },
-        {
-          "type": "Lounas",
-          "title": "Kana Gyros, avocadosalsa ja American Sour cream Dippi",
-          "description": "Tuore avokadosalsa tuo raikkautta ja kermaviilidippi viimeistelee makunautinnon.",
+          "title": "Cajun paahdettua lohta ja tilli-hollandaice",
+          "description": "Cajun maustettua tuoretta kotimaista kirjolohta, niskaan hollaindaise kastiketta ja runsaasti tilliä.",
           "diet": "gluteeniton, laktoositon",
           "price": ""
         },
         {
           "type": "Lounas",
-          "title": "Pasta Carbonaara",
-          "description": "",
-          "diet": "laktoositon",
-          "price": ""
-        },
-        {
-          "type": "Lounas",
-          "title": "Tortilla letut",
-          "description": "",
-          "diet": "laktoositon",
-          "price": ""
-        },
-        {
-          "type": "Lounas",
-          "title": "Jasmin Riisiä",
+          "title": "Pannupihvit ja karamellisoitua sipulia",
           "description": "",
           "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Rekkamiehen Makkis pekkis",
+          "description": "Friteeratut tikkuperunat ja prinssinakkeja. Tuunataan cheddarkastikkeella ja paahdetulla sipulilla. Tykätarpeina tietty sinappi, ketsuppi ja kurkkusalaatti",
+          "diet": "laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Suppilovahveromuhennosta",
+          "description": "",
+          "diet": "gluteeniton",
           "price": ""
         },
         {
@@ -142,6 +135,20 @@
           "title": "Paahdetut tuoreet kasvikset",
           "description": "",
           "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Riisi",
+          "description": "",
+          "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Pullavanukasta ja vaniljakastiketta",
+          "description": "",
+          "diet": "laktoositon",
           "price": ""
         }
       ]
@@ -163,44 +170,51 @@
         },
         {
           "type": "Kotiruoka",
-          "title": "Grillattua merilohta& purjo-smetanakastike",
+          "title": "Paistettua merilohta & tilli-kermaviilikastike",
           "description": "",
           "diet": "L · G",
           "price": ""
         },
         {
           "type": "Kotiruoka",
-          "title": "Turkkilaiset lihapullat(köfte)&minttu-tomaattikastike& tsatsiki",
+          "title": "Voissa paistetut muikut& tilli-kermaviilikastike",
           "description": "",
           "diet": "L",
+          "price": ""
+        },
+        {
+          "type": "Kotiruoka",
+          "title": "Kerma-sipulikastikkeessa haudutettua naudanmaksaa&puolukkahillo",
+          "description": "",
+          "diet": "L · G",
           "price": ""
         },
         {
           "type": "Kasvisruoka",
-          "title": "Kermainen kanterelli-halloumijuustopasta & parmesaani",
+          "title": "Kukkakaali-currypyörykät & tsatsiki&humus",
           "description": "",
-          "diet": "L",
+          "diet": "M · G · Veg",
           "price": ""
         },
         {
           "type": "Lisuke",
-          "title": "Perunamuusi (L, G), keitetyt perunat (M, G) minttubasmatiriisi",
+          "title": "Perunamuusi (l, g), basmatiriisi (m, g) tilliperunat",
           "description": "",
-          "diet": "M · G",
+          "diet": "M · L · G",
           "price": ""
         },
         {
           "type": "Keitto",
-          "title": "Currykookoskalkkunakeitto",
+          "title": "Häränlihaborchkeitto&smetana",
           "description": "",
           "diet": "L · G",
           "price": ""
         },
         {
           "type": "Jälkiruoka",
-          "title": "Snickersrahka",
+          "title": "Mango-suklaamousse",
           "description": "",
-          "diet": "VL · G",
+          "diet": "L · G",
           "price": ""
         },
         {
