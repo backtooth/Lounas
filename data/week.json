@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-17T11:52:41.929Z",
+  "generatedAt": "2026-11-18T11:42:24.383Z",
   "days": {
     "2026-11-16": {
       "date": "2026-11-16",
       "weekday": "Maanantai",
       "displayDate": "16. marraskuuta 2026",
-      "generatedAt": "2026-11-17T11:52:41.929Z",
+      "generatedAt": "2026-11-18T11:42:24.383Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -230,7 +230,7 @@
       "date": "2026-11-17",
       "weekday": "Tiistai",
       "displayDate": "17. marraskuuta 2026",
-      "generatedAt": "2026-11-17T11:52:41.929Z",
+      "generatedAt": "2026-11-18T11:42:24.383Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -469,7 +469,7 @@
       "date": "2026-11-18",
       "weekday": "Keskiviikko",
       "displayDate": "18. marraskuuta 2026",
-      "generatedAt": "2026-11-17T11:52:41.929Z",
+      "generatedAt": "2026-11-18T11:42:24.383Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -587,7 +587,7 @@
               "type": "Lounas",
               "title": "Kasvis pihvit",
               "description": "Porkkana-kesäkurpitsa pihvejä.",
-              "diet": "laktoositon",
+              "diet": "gluteeniton, laktoositon",
               "price": ""
             },
             {
@@ -602,6 +602,13 @@
               "title": "Paahdetut tuoreet kasvikset",
               "description": "",
               "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Talon Ceasar salaattia naturell",
+              "description": "",
+              "diet": "laktoositon",
               "price": ""
             }
           ]
@@ -687,7 +694,7 @@
       "date": "2026-11-19",
       "weekday": "Torstai",
       "displayDate": "19. marraskuuta 2026",
-      "generatedAt": "2026-11-17T11:52:41.929Z",
+      "generatedAt": "2026-11-18T11:42:24.383Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -926,7 +933,7 @@
       "date": "2026-11-20",
       "weekday": "Perjantai",
       "displayDate": "20. marraskuuta 2026",
-      "generatedAt": "2026-11-17T11:52:41.929Z",
+      "generatedAt": "2026-11-18T11:42:24.383Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1165,7 +1172,7 @@
       "date": "2026-11-21",
       "weekday": "Lauantai",
       "displayDate": "21. marraskuuta 2026",
-      "generatedAt": "2026-11-17T11:52:41.929Z",
+      "generatedAt": "2026-11-18T11:42:24.383Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1275,7 +1282,7 @@
       "date": "2026-11-22",
       "weekday": "Sunnuntai",
       "displayDate": "22. marraskuuta 2026",
-      "generatedAt": "2026-11-17T11:52:41.929Z",
+      "generatedAt": "2026-11-18T11:42:24.383Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
