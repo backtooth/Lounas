@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-19T09:30:36.273Z",
+  "generatedAt": "2026-11-19T18:40:59.576Z",
   "days": {
     "2026-11-16": {
       "date": "2026-11-16",
       "weekday": "Maanantai",
       "displayDate": "16. marraskuuta 2026",
-      "generatedAt": "2026-11-19T09:30:36.273Z",
+      "generatedAt": "2026-11-19T18:40:59.576Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -230,7 +230,7 @@
       "date": "2026-11-17",
       "weekday": "Tiistai",
       "displayDate": "17. marraskuuta 2026",
-      "generatedAt": "2026-11-19T09:30:36.273Z",
+      "generatedAt": "2026-11-19T18:40:59.576Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -469,7 +469,7 @@
       "date": "2026-11-18",
       "weekday": "Keskiviikko",
       "displayDate": "18. marraskuuta 2026",
-      "generatedAt": "2026-11-19T09:30:36.273Z",
+      "generatedAt": "2026-11-19T18:40:59.576Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -694,7 +694,7 @@
       "date": "2026-11-19",
       "weekday": "Torstai",
       "displayDate": "19. marraskuuta 2026",
-      "generatedAt": "2026-11-19T09:30:36.273Z",
+      "generatedAt": "2026-11-19T18:40:59.576Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -933,7 +933,7 @@
       "date": "2026-11-20",
       "weekday": "Perjantai",
       "displayDate": "20. marraskuuta 2026",
-      "generatedAt": "2026-11-19T09:30:36.273Z",
+      "generatedAt": "2026-11-19T18:40:59.576Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1035,8 +1035,8 @@
           "items": [
             {
               "type": "Lounas",
-              "title": "Porsaanleikkeet ja LimeAioliadippi",
-              "description": "",
+              "title": "Porsaanleikkeet ja Lime-Aioliadippi",
+              "description": "Talon rapeat itsetehdyt leikkeet",
               "diet": "laktoositon",
               "price": ""
             },
@@ -1050,7 +1050,7 @@
             {
               "type": "Lounas",
               "title": "Savustettua Lohta",
-              "description": "",
+              "description": "Niskassa Beurre Blanc kastiketta ja runsaasti tilliä",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
@@ -1063,7 +1063,7 @@
             },
             {
               "type": "Lounas",
-              "title": "Paahdetut tuoreet kasvikset",
+              "title": "Paahdetut tuoreet kasvikset ja paahdetut nappulaperunat",
               "description": "",
               "diet": "gluteeniton, laktoositon",
               "price": ""
@@ -1073,6 +1073,13 @@
               "title": "Tiramisupehmistä",
               "description": "",
               "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Maistuvaa viikonloppua.",
+              "description": "",
+              "diet": "",
               "price": ""
             }
           ]
@@ -1172,7 +1179,7 @@
       "date": "2026-11-21",
       "weekday": "Lauantai",
       "displayDate": "21. marraskuuta 2026",
-      "generatedAt": "2026-11-19T09:30:36.273Z",
+      "generatedAt": "2026-11-19T18:40:59.576Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1282,7 +1289,7 @@
       "date": "2026-11-22",
       "weekday": "Sunnuntai",
       "displayDate": "22. marraskuuta 2026",
-      "generatedAt": "2026-11-19T09:30:36.273Z",
+      "generatedAt": "2026-11-19T18:40:59.576Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
