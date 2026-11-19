@@ -2,7 +2,7 @@
   "date": "2026-11-19",
   "weekday": "Torstai",
   "displayDate": "19. marraskuuta 2026",
-  "generatedAt": "2026-11-18T11:42:24.383Z",
+  "generatedAt": "2026-11-19T09:30:36.273Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -106,7 +106,7 @@
           "type": "Lounas",
           "title": "Kentucky fried Chicken ja Mango-habanero dippi",
           "description": "",
-          "diet": "gluteeniton, laktoositon",
+          "diet": "laktoositon",
           "price": ""
         },
         {
@@ -125,7 +125,7 @@
         },
         {
           "type": "Lounas",
-          "title": "Täytetty Kesäkurpitsa",
+          "title": "Kasvis-Soijarouhe Täytetty Kesäkurpitsa",
           "description": "",
           "diet": "gluteeniton, laktoositon",
           "price": ""
