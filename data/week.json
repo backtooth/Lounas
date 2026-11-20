@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-20T00:55:41.902Z",
+  "generatedAt": "2026-11-20T17:18:29.747Z",
   "days": {
     "2026-11-16": {
       "date": "2026-11-16",
       "weekday": "Maanantai",
       "displayDate": "16. marraskuuta 2026",
-      "generatedAt": "2026-11-20T00:55:41.902Z",
+      "generatedAt": "2026-11-20T17:18:29.747Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -230,7 +230,7 @@
       "date": "2026-11-17",
       "weekday": "Tiistai",
       "displayDate": "17. marraskuuta 2026",
-      "generatedAt": "2026-11-20T00:55:41.902Z",
+      "generatedAt": "2026-11-20T17:18:29.747Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -469,7 +469,7 @@
       "date": "2026-11-18",
       "weekday": "Keskiviikko",
       "displayDate": "18. marraskuuta 2026",
-      "generatedAt": "2026-11-20T00:55:41.902Z",
+      "generatedAt": "2026-11-20T17:18:29.747Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -657,13 +657,6 @@
               "price": ""
             },
             {
-              "type": "Jälkiruoka",
-              "title": "Lämmin omena-kaurapaistos&vaniljavaahto",
-              "description": "",
-              "diet": "L · G",
-              "price": ""
-            },
-            {
               "type": "Lisuke",
               "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
               "description": "",
@@ -687,7 +680,7 @@
       "date": "2026-11-19",
       "weekday": "Torstai",
       "displayDate": "19. marraskuuta 2026",
-      "generatedAt": "2026-11-20T00:55:41.902Z",
+      "generatedAt": "2026-11-20T17:18:29.747Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -926,7 +919,7 @@
       "date": "2026-11-20",
       "weekday": "Perjantai",
       "displayDate": "20. marraskuuta 2026",
-      "generatedAt": "2026-11-20T00:55:41.902Z",
+      "generatedAt": "2026-11-20T17:18:29.747Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1142,13 +1135,6 @@
               "price": ""
             },
             {
-              "type": "Jälkiruoka",
-              "title": "Puolukkavispipuuro",
-              "description": "",
-              "diet": "M · L",
-              "price": ""
-            },
-            {
               "type": "Lisuke",
               "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
               "description": "",
@@ -1172,7 +1158,7 @@
       "date": "2026-11-21",
       "weekday": "Lauantai",
       "displayDate": "21. marraskuuta 2026",
-      "generatedAt": "2026-11-20T00:55:41.902Z",
+      "generatedAt": "2026-11-20T17:18:29.747Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1252,10 +1238,24 @@
               "price": ""
             },
             {
-              "type": "Jälkiruoka",
-              "title": "Uunituoreet korvapuustit",
+              "type": "Keitto",
+              "title": "Mausteinen tomaattikeitto & juustoraaste",
               "description": "",
-              "diet": "L",
+              "diet": "M · G",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Lämmin omena-kaurapaistos&vaniljavaahto",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Puolukkavispipuuro",
+              "description": "",
+              "diet": "M · L",
               "price": ""
             },
             {
@@ -1282,7 +1282,7 @@
       "date": "2026-11-22",
       "weekday": "Sunnuntai",
       "displayDate": "22. marraskuuta 2026",
-      "generatedAt": "2026-11-20T00:55:41.902Z",
+      "generatedAt": "2026-11-20T17:18:29.747Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
