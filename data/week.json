@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-19T18:40:59.576Z",
+  "generatedAt": "2026-11-20T00:55:41.902Z",
   "days": {
     "2026-11-16": {
       "date": "2026-11-16",
       "weekday": "Maanantai",
       "displayDate": "16. marraskuuta 2026",
-      "generatedAt": "2026-11-19T18:40:59.576Z",
+      "generatedAt": "2026-11-20T00:55:41.902Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -230,7 +230,7 @@
       "date": "2026-11-17",
       "weekday": "Tiistai",
       "displayDate": "17. marraskuuta 2026",
-      "generatedAt": "2026-11-19T18:40:59.576Z",
+      "generatedAt": "2026-11-20T00:55:41.902Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -469,7 +469,7 @@
       "date": "2026-11-18",
       "weekday": "Keskiviikko",
       "displayDate": "18. marraskuuta 2026",
-      "generatedAt": "2026-11-19T18:40:59.576Z",
+      "generatedAt": "2026-11-20T00:55:41.902Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -643,13 +643,6 @@
               "price": ""
             },
             {
-              "type": "Kasvisruoka",
-              "title": "Kasvistäytteiset uunipaprikat ja sweet chili -majoneesi & avokadohummus ja minttujogurtti",
-              "description": "",
-              "diet": "L · G · K",
-              "price": ""
-            },
-            {
               "type": "Lisuke",
               "title": "Perunamuusi (L, G), keitetyt perunat (M, G) minttubasmatiriisi",
               "description": "",
@@ -694,7 +687,7 @@
       "date": "2026-11-19",
       "weekday": "Torstai",
       "displayDate": "19. marraskuuta 2026",
-      "generatedAt": "2026-11-19T18:40:59.576Z",
+      "generatedAt": "2026-11-20T00:55:41.902Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -933,7 +926,7 @@
       "date": "2026-11-20",
       "weekday": "Perjantai",
       "displayDate": "20. marraskuuta 2026",
-      "generatedAt": "2026-11-19T18:40:59.576Z",
+      "generatedAt": "2026-11-20T00:55:41.902Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1179,7 +1172,7 @@
       "date": "2026-11-21",
       "weekday": "Lauantai",
       "displayDate": "21. marraskuuta 2026",
-      "generatedAt": "2026-11-19T18:40:59.576Z",
+      "generatedAt": "2026-11-20T00:55:41.902Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1246,9 +1239,9 @@
             },
             {
               "type": "Kasvisruoka",
-              "title": "Hunaja-feta-rakuunaporkkanat",
+              "title": "Kasvistäytteiset uunipaprikat ja minttujogurtti",
               "description": "",
-              "diet": "M · G",
+              "diet": "L · G · K",
               "price": ""
             },
             {
@@ -1289,7 +1282,7 @@
       "date": "2026-11-22",
       "weekday": "Sunnuntai",
       "displayDate": "22. marraskuuta 2026",
-      "generatedAt": "2026-11-19T18:40:59.576Z",
+      "generatedAt": "2026-11-20T00:55:41.902Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
