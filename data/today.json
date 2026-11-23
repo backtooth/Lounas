@@ -2,7 +2,7 @@
   "date": "2026-11-23",
   "weekday": "Maanantai",
   "displayDate": "23. marraskuuta 2026",
-  "generatedAt": "2026-11-23T01:58:44.737Z",
+  "generatedAt": "2026-11-23T10:46:55.889Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -104,22 +104,22 @@
       "items": [
         {
           "type": "Lounas",
-          "title": "Kanan rintaa \"limonello\"",
-          "description": "Marinoitua kanan rintafilettä kermaisessa \"sitruuna-parmesaani\" kastikkeessa.",
+          "title": "Sitruuna marinoitua kanan rintaa \"limonello\"",
+          "description": "Sitruunalla marinoitua kanan rintafilettä kermaisessa \"sitruuna-parmesaani\" kastikkeessa.",
           "diet": "gluteeniton, laktoositon",
           "price": ""
         },
         {
           "type": "Lounas",
           "title": "Pulled pork pitataskut",
-          "description": "Maustettua nyhtöpossua pitataskussa. Ei, kun ääntä kohti.",
+          "description": "Yrtti-texaspete jogurtilla maustettua nyhtöpossua pitataskussa. Ei, kun ääntä kohti.",
           "diet": "laktoositon",
           "price": ""
         },
         {
           "type": "Lounas",
           "title": "Pepperoni-pekoni pasta",
-          "description": "Kermalla pyöristetty tomaattikastike ja paahdettua pepperonia. Viimeistellään parmesaanilla.",
+          "description": "Kermalla pyöristetty tomaattikastike. Paahdettulla pekonilla ja pepperonilla. Viimeistellään parmesaanilla.",
           "diet": "laktoositon",
           "price": ""
         },
