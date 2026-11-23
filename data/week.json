@@ -1,29 +1,101 @@
 {
-  "generatedAt": "2026-11-22T21:17:21.779Z",
+  "generatedAt": "2026-11-23T01:58:44.737Z",
   "days": {
-    "2026-11-16": {
-      "date": "2026-11-16",
+    "2026-11-23": {
+      "date": "2026-11-23",
       "weekday": "Maanantai",
-      "displayDate": "16. marraskuuta 2026",
-      "generatedAt": "2026-11-22T21:17:21.779Z",
+      "displayDate": "23. marraskuuta 2026",
+      "generatedAt": "2026-11-23T01:58:44.737Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
           "address": "Vanha Nurmijärventie 21, Rak. 3",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.dylan.fi/vaisala",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Keitto",
+              "title": "Kuohkeaa purjo-perunasosekeittoa (L,G)",
+              "description": "",
+              "diet": "",
+              "price": "6,90 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Lihapyöryköitä yrtti-tomaattikastikkeessa (M, G) Rummon pastaa (V) Parmesania (VL, G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Kotimaista kananpoikaa Lyonin tapaan (L, G) Ruskistetulla voilla maustettua perunaa (L, G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Soija bolognesea (V, G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Maanantain makea",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Lunch Hub",
           "address": "Vanha Nurmijärventie 21, Rak. 4",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.lunchhub.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Keitto",
+              "title": "Sesam-kanakeittoa",
+              "description": "",
+              "diet": "M · G",
+              "price": "7,10 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Parempi nakkistroganoff & ranskankermaa",
+              "description": "",
+              "diet": "L · G",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Vegaanista nakkistorganoffia",
+              "description": "",
+              "diet": "G · V",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Lisuke",
+              "title": "Persiljaperunoita",
+              "description": "",
+              "diet": "G · V",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Maanantain makea",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Fuudii",
@@ -82,44 +154,216 @@
           "address": "Jönsaksentie 4",
           "hours": "ma–pe 10.15–14 · la 11–14",
           "sourceUrl": "https://www.sapusca.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lisuke",
+              "title": "25.11 keskiviikko Jouluinen lounas 10:15-15:00 buffet 16 € eläkeläiset vain 14 €",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Voissa paistettua merilohta-tartarkastike",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Lindströminpihvit & paistettua sipulia & kermakastike",
+              "description": "",
+              "diet": "L",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Kananugetit-mangochilimajoneesikastike",
+              "description": "",
+              "diet": "L",
+              "price": ""
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Halloumijuusto-punajuuripihvit & tsatsiki",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Perunamuusi (L, G), keitetyt perunat (M, G) minttubasmatiriisi",
+              "description": "",
+              "diet": "M · G",
+              "price": ""
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Samettinen bataatti-kookoskeitto",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Omena-kanelirahka & suklaakeksit",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Koto Kaivoksela",
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "error",
-          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lounas",
+              "title": "Kievinkanaa, aioli L",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Karjalapaistia L, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Kasviskevätkääryleet L",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Paahdettu valkosipulikeitto L, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Pieni makea & kahvi / tee",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         }
       ]
     },
-    "2026-11-17": {
-      "date": "2026-11-17",
+    "2026-11-24": {
+      "date": "2026-11-24",
       "weekday": "Tiistai",
-      "displayDate": "17. marraskuuta 2026",
-      "generatedAt": "2026-11-22T21:17:21.779Z",
+      "displayDate": "24. marraskuuta 2026",
+      "generatedAt": "2026-11-23T01:58:44.737Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
           "address": "Vanha Nurmijärventie 21, Rak. 3",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.dylan.fi/vaisala",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Keitto",
+              "title": "Savupaprikakeittoa (L,G) Yrtti cremeä (L,G)",
+              "description": "",
+              "diet": "",
+              "price": "6,90 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Kermaista makkarakastiketta (L,G) Suolakurkkua (V,G) Mummon muusia (L,G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Puna-ahventa kermaisella piparjuurikastikkeella (L, G) Tilliperunaa (V, G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Nyhtökaura-kasvisgratiinia koskenlaskijalla (L, G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Kuohkeaa vadelmavispipuuroa (M) Maitoa (L)",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Lunch Hub",
           "address": "Vanha Nurmijärventie 21, Rak. 4",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.lunchhub.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Keitto",
+              "title": "Meksikolaista lihakeittoa",
+              "description": "",
+              "diet": "M · G",
+              "price": "7,10 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Kotimaista kanaa panang curry kastikkeessa",
+              "description": "",
+              "diet": "M · G",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Tofua & kasviksia panang curry kastikkeessa",
+              "description": "",
+              "diet": "G · V",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Lisuke",
+              "title": "Höyrytettyä basmatiriisiä (V,G)",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Cappuccinomoussea",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Fuudii",
@@ -185,44 +429,209 @@
           "address": "Jönsaksentie 4",
           "hours": "ma–pe 10.15–14 · la 11–14",
           "sourceUrl": "https://www.sapusca.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lisuke",
+              "title": "25.11 keskiviikko Jouluinen lounas 10:15-15:00 buffet 16 € eläkeläiset vain 14 €",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Paistettua kuhaa& valkoviini-voikastike",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Herkkuliset Siirappivoissa haudutetut kaalikääryleet&puolukkahillo",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Härkäpavun Falafelpihvit ( itse tehty ) & punajuurihummus & tsatsiki & mintturiisi",
+              "description": "",
+              "diet": "L · G · Veg",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Perunamuusi (L, G), keitetyt perunat (M, G) minttubasmatiriisi",
+              "description": "",
+              "diet": "M · G",
+              "price": ""
+            },
+            {
+              "type": "Keitto",
+              "title": "Ukrainalainen borssikeitto & smetana",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Mango-suklaamousse",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Koto Kaivoksela",
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "error",
-          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lounas",
+              "title": "Mausteinen pulled pork L, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Crispy Chicken L, G, tacomajoneesi L, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Sienirisotto L, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Paprika-kasviskeitto M, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Pieni makea & kahvi/ tee",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         }
       ]
     },
-    "2026-11-18": {
-      "date": "2026-11-18",
+    "2026-11-25": {
+      "date": "2026-11-25",
       "weekday": "Keskiviikko",
-      "displayDate": "18. marraskuuta 2026",
-      "generatedAt": "2026-11-22T21:17:21.779Z",
+      "displayDate": "25. marraskuuta 2026",
+      "generatedAt": "2026-11-23T01:58:44.737Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
           "address": "Vanha Nurmijärventie 21, Rak. 3",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.dylan.fi/vaisala",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Keitto",
+              "title": "Samettinen maa-artisokkakeitto (L,G)",
+              "description": "",
+              "diet": "",
+              "price": "6,90 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Voilla ja siirapilla siveltyjä kaalikääryleitä (L, G) Puolukkaa (V, G) Murskattua perunaa (V, G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Lohta voi-valkoviinikastikkeella (L, G) Tilliperunaa (V, G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Tryffelillä maustettua sieni-härkis risottoa (L, G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Banaani-kinuski rahkaa (L, G)",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Lunch Hub",
           "address": "Vanha Nurmijärventie 21, Rak. 4",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.lunchhub.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Keitto",
+              "title": "Kermaista katkarapukeittoa",
+              "description": "",
+              "diet": "L · G",
+              "price": "7,10 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Lihapullia jallu-kermakastikkeessa",
+              "description": "",
+              "diet": "L · G",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Vegaanipullia Jallu-kaurakermassa (vege lisuke keittiöstä)",
+              "description": "",
+              "diet": "G · V",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Lisuke",
+              "title": "Voilla höystettyä perunamuusia",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Biscoff-\"juustokakkua\"",
+              "description": "",
+              "diet": "L",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Fuudii",
@@ -238,44 +647,216 @@
           "address": "Jönsaksentie 4",
           "hours": "ma–pe 10.15–14 · la 11–14",
           "sourceUrl": "https://www.sapusca.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lisuke",
+              "title": "Tänään Jouluinen lounas 10:15-15:00 buffet 16 € eläkeläiset vain 14 €",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Yön yli haudutettu joulukassleri luumukastikkeessa",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Grillattua merilohta & smetana-mätikastike",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Hunajalla ja rosmariinilla glaseeratut uunijuurekset",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Porkkanalaatikko, lanttulaatikko, imelletty perunalaatikko, tilliperuna",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Rosolli & kermakastike, metsäsienisalaatti, sinappisilli, lasimestarinsilli, sipulisilli, ja paljon muuta...",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Keitto",
+              "title": "Joulupukin kantarelli-savuporokeitto",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Jouluinen luumukiisseli kanelivaahdolla",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Koto Kaivoksela",
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "error",
-          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lounas",
+              "title": "Cajun paahdettua lohta, paprikamajoneesi L, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Makkarastroganoff L, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Pinaattiraviolit, jogurttikastike L",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Juustoinen kasvissosekeitto L, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Pieni makea & kahvi / tee",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         }
       ]
     },
-    "2026-11-19": {
-      "date": "2026-11-19",
+    "2026-11-26": {
+      "date": "2026-11-26",
       "weekday": "Torstai",
-      "displayDate": "19. marraskuuta 2026",
-      "generatedAt": "2026-11-22T21:17:21.779Z",
+      "displayDate": "26. marraskuuta 2026",
+      "generatedAt": "2026-11-23T01:58:44.737Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
           "address": "Vanha Nurmijärventie 21, Rak. 3",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.dylan.fi/vaisala",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Keitto",
+              "title": "Perinteistä hernekeittoa (M,G) Sipulia (V,G) Sinappia (V,G) (Kasvisannos pyydettäessä keittiöstä)",
+              "description": "",
+              "diet": "",
+              "price": "6,90 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Teriyakikastikkeella glaseerattua possua (M, G) Seesamiriisiä (V, G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Kanaa cheddar-jalapenokastikkeessa (L,G) Paahdettua paprikaperunaa (V,G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Teriyaki tofua ja kasviksia (V,G)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Kotitekoista pannukakkua (L) Hilloa (V, G) Kermavaahtoa (L, G)",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Lunch Hub",
           "address": "Vanha Nurmijärventie 21, Rak. 4",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.lunchhub.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Keitto",
+              "title": "Maa-artisokkakeittoa",
+              "description": "",
+              "diet": "L · G",
+              "price": "7,10 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Karaage kanaa & soijadippiä",
+              "description": "",
+              "diet": "M",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Rapeaa tofua & soija-chilidippikastike",
+              "description": "",
+              "diet": "M · V",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Lisuke",
+              "title": "Paistettua riisiä ja kasviksia",
+              "description": "",
+              "diet": "G · V",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Suolakinuski-omenapiirakkaa",
+              "description": "",
+              "diet": "L",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Fuudii",
@@ -291,44 +872,209 @@
           "address": "Jönsaksentie 4",
           "hours": "ma–pe 10.15–14 · la 11–14",
           "sourceUrl": "https://www.sapusca.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Kotiruoka",
+              "title": "Grillattua merilohta&tilli-kermaviilikastike",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Mummon lihapullat kermakastikkeessa & puolukkahillo",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Voissa paistettuja muikkuja&tilli-kermaviilikastike",
+              "description": "",
+              "diet": "L",
+              "price": ""
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Punajuuri-vuohenjuustokiusaus",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Perunamuusi (l, g), basmatiriisi (m, g) tilliperunat",
+              "description": "",
+              "diet": "M · L · G",
+              "price": ""
+            },
+            {
+              "type": "Keitto",
+              "title": "Palvipotkahernekeitto & tuore sipulia ja sinappia",
+              "description": "",
+              "diet": "M · G",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Pannari, hillo & kermavaahto",
+              "description": "",
+              "diet": "L",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Koto Kaivoksela",
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "error",
-          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lounas",
+              "title": "Nachopaneroitua kanapoikaa L, G, currymajoneesi L",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Pasta Bolognese L",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Kasviswokki paahdetulla tofulla M G, Veg",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Hernekeitto L,G saatavana myös kasvishernekeitto V, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Pannukakku, hillo & kermavaahto L, kahvi / tee",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         }
       ]
     },
-    "2026-11-20": {
-      "date": "2026-11-20",
+    "2026-11-27": {
+      "date": "2026-11-27",
       "weekday": "Perjantai",
-      "displayDate": "20. marraskuuta 2026",
-      "generatedAt": "2026-11-22T21:17:21.779Z",
+      "displayDate": "27. marraskuuta 2026",
+      "generatedAt": "2026-11-23T01:58:44.737Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
           "address": "Vanha Nurmijärventie 21, Rak. 3",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.dylan.fi/vaisala",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Keitto",
+              "title": "Tom yam keittoa katkaravuilla (M,G)",
+              "description": "",
+              "diet": "",
+              "price": "6,90 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Naudanliha kebabia tuhdissa tomaattikastikkeessa (M,G) Kanakebabia currykastikkeella (L,G) Vebabia (V)",
+              "description": "",
+              "diet": "",
+              "price": "11,20 €"
+            },
+            {
+              "type": "Lisuke",
+              "title": "Tzatsikia (L, G) Marinoitua punasipulia (V, G) Jalopenoja (V, G)",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Rapeita ranskalaisia (V, G) Riisiä (V, G)",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Perjantai herkku",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Lunch Hub",
           "address": "Vanha Nurmijärventie 21, Rak. 4",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.lunchhub.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Keitto",
+              "title": "Mausteista linssi-kasviskeittoa",
+              "description": "",
+              "diet": "G · V",
+              "price": "7,10 €"
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Rapeita porsaan leikkeitä (M) & bearnaisekastiketta (L,G)",
+              "description": "",
+              "diet": "",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Paneroitu vegeleike & vegaaninen majoneesi",
+              "description": "",
+              "diet": "V",
+              "price": "10,80 €"
+            },
+            {
+              "type": "Lisuke",
+              "title": "Rapeita ranskalaisia",
+              "description": "",
+              "diet": "G · V",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Perjantain herkku :)",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Fuudii",
@@ -344,26 +1090,126 @@
           "address": "Jönsaksentie 4",
           "hours": "ma–pe 10.15–14 · la 11–14",
           "sourceUrl": "https://www.sapusca.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Kotiruoka",
+              "title": "Lapinleike (juustoinen savuporokastike )",
+              "description": "",
+              "diet": "L",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Porsaanleike ja punaviini-rosmariinikastike",
+              "description": "",
+              "diet": "L",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Paistettua merilohta&remouladekastike",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Suussasulava tandoorikana",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Valkosipuli-yrttikasvikset",
+              "description": "",
+              "diet": "M · G · Veg",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Valkosipulikermaperunat (l, g), paistetut perunat (l, g), basmatiriisi (m, g)",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Keitto",
+              "title": "Kermainen lohikeitto & saaristolaisleipää",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Appelsiiniriisi",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Koto Kaivoksela",
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "error",
-          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Lounas",
+              "title": "Porsaanleike, choronkastike, pippurikastike L",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Fish & chips KOTO:n tapaan L",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Kasvis-kaalikaalilaatikko L, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Bataatti-chilikeitto L, G",
+              "description": "",
+              "diet": "",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Pieni makea & kahvi / tee",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         }
       ]
     },
-    "2026-11-21": {
-      "date": "2026-11-21",
+    "2026-11-28": {
+      "date": "2026-11-28",
       "weekday": "Lauantai",
-      "displayDate": "21. marraskuuta 2026",
-      "generatedAt": "2026-11-22T21:17:21.779Z",
+      "displayDate": "28. marraskuuta 2026",
+      "generatedAt": "2026-11-23T01:58:44.737Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -397,9 +1243,66 @@
           "address": "Jönsaksentie 4",
           "hours": "ma–pe 10.15–14 · la 11–14",
           "sourceUrl": "https://www.sapusca.fi/",
-          "status": "closed",
-          "message": "Ravintola on tänään suljettu.",
-          "items": []
+          "status": "ok",
+          "message": "",
+          "items": [
+            {
+              "type": "Kotiruoka",
+              "title": "Paistetut lohimedaljongit (merilohta) & lime-aiolikastike",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Ylikypsää porsaankasleria konjakkisinappikastikkeessa",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Kotiruoka",
+              "title": "Kanan paistileikkeet appelsiinikastikkeessa",
+              "description": "",
+              "diet": "M · G",
+              "price": ""
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Hunaja-feta-rakuunaporkkanat",
+              "description": "",
+              "diet": "M · G",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Perunamuusi (l, g), basmatiriisi (m, g) paahdetut perunat",
+              "description": "",
+              "diet": "M · L · G",
+              "price": ""
+            },
+            {
+              "type": "Kasvisruoka",
+              "title": "Tomaattinen kidneypapukeitto",
+              "description": "",
+              "diet": "M · G",
+              "price": ""
+            },
+            {
+              "type": "Jälkiruoka",
+              "title": "Mandariinirahka ja suklaakeksit",
+              "description": "",
+              "diet": "L · G",
+              "price": ""
+            },
+            {
+              "type": "Lisuke",
+              "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
+              "description": "",
+              "diet": "",
+              "price": ""
+            }
+          ]
         },
         {
           "name": "Koto Kaivoksela",
@@ -412,11 +1315,11 @@
         }
       ]
     },
-    "2026-11-22": {
-      "date": "2026-11-22",
+    "2026-11-29": {
+      "date": "2026-11-29",
       "weekday": "Sunnuntai",
-      "displayDate": "22. marraskuuta 2026",
-      "generatedAt": "2026-11-22T21:17:21.779Z",
+      "displayDate": "29. marraskuuta 2026",
+      "generatedAt": "2026-11-23T01:58:44.737Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
