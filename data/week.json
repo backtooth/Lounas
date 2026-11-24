@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-23T10:46:55.889Z",
+  "generatedAt": "2026-11-24T17:45:15.181Z",
   "days": {
     "2026-11-23": {
       "date": "2026-11-23",
       "weekday": "Maanantai",
       "displayDate": "23. marraskuuta 2026",
-      "generatedAt": "2026-11-23T10:46:55.889Z",
+      "generatedAt": "2026-11-24T17:45:15.181Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -273,7 +273,7 @@
       "date": "2026-11-24",
       "weekday": "Tiistai",
       "displayDate": "24. marraskuuta 2026",
-      "generatedAt": "2026-11-23T10:46:55.889Z",
+      "generatedAt": "2026-11-24T17:45:15.181Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -441,7 +441,7 @@
             },
             {
               "type": "Kotiruoka",
-              "title": "Paistettua kuhaa& valkoviini-voikastike",
+              "title": "Paistettua merilohta&valkoviini-voikastike",
               "description": "",
               "diet": "L · G",
               "price": ""
@@ -541,7 +541,7 @@
       "date": "2026-11-25",
       "weekday": "Keskiviikko",
       "displayDate": "25. marraskuuta 2026",
-      "generatedAt": "2026-11-23T10:46:55.889Z",
+      "generatedAt": "2026-11-24T17:45:15.181Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -643,15 +643,15 @@
           "items": [
             {
               "type": "Lounas",
-              "title": "Pepperino pannupizza Detroit Style",
-              "description": "",
+              "title": "Pepperino-pannupizza Detroit Style",
+              "description": "Väärinpäin paistettu pannupizza, missä tomaattikastike päällimmäisenä. Talon itsetehty pannupizzapohja jää tuoreen Mozzarella fior de latten ja parmesanjuuston alle. Ei siis minkään raastetun edamjuuston alle.",
               "diet": "laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
               "title": "Paahdettua tuoretta lohta ja pestoa",
-              "description": "",
+              "description": "Kotimainen kirjolohi saa niskaansa itse tehdyn basilikapeston.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
@@ -802,7 +802,7 @@
       "date": "2026-11-26",
       "weekday": "Torstai",
       "displayDate": "26. marraskuuta 2026",
-      "generatedAt": "2026-11-23T10:46:55.889Z",
+      "generatedAt": "2026-11-24T17:45:15.181Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -904,23 +904,23 @@
           "items": [
             {
               "type": "Lounas",
-              "title": "Jauheliha Lasagne",
+              "title": "Pitkään haudutettua jauheliha chiliä ja creme fraiche dippiä.",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Kanan paistileikettä BBQ-kastiketta.",
+              "description": "",
+              "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Kebab tacoja",
               "description": "",
               "diet": "laktoositon",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Kanan paistileikettä yrtti-pesto kermakastikkeessa.",
-              "description": "",
-              "diet": "gluteeniton, laktoositon",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Kebab nachovuoka",
-              "description": "",
-              "diet": "gluteeniton, laktoositon",
               "price": ""
             },
             {
@@ -939,7 +939,7 @@
             },
             {
               "type": "Lounas",
-              "title": "Pitkäriisiä",
+              "title": "Pitkää riisiä ja tortilla lettuja.",
               "description": "",
               "diet": "gluteeniton, laktoositon",
               "price": ""
@@ -1070,7 +1070,7 @@
       "date": "2026-11-27",
       "weekday": "Perjantai",
       "displayDate": "27. marraskuuta 2026",
-      "generatedAt": "2026-11-23T10:46:55.889Z",
+      "generatedAt": "2026-11-24T17:45:15.181Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1345,7 +1345,7 @@
       "date": "2026-11-28",
       "weekday": "Lauantai",
       "displayDate": "28. marraskuuta 2026",
-      "generatedAt": "2026-11-23T10:46:55.889Z",
+      "generatedAt": "2026-11-24T17:45:15.181Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1455,7 +1455,7 @@
       "date": "2026-11-29",
       "weekday": "Sunnuntai",
       "displayDate": "29. marraskuuta 2026",
-      "generatedAt": "2026-11-23T10:46:55.889Z",
+      "generatedAt": "2026-11-24T17:45:15.181Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",

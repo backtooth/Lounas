@@ -2,7 +2,7 @@
   "date": "2026-11-24",
   "weekday": "Tiistai",
   "displayDate": "24. marraskuuta 2026",
-  "generatedAt": "2026-11-23T10:46:55.889Z",
+  "generatedAt": "2026-11-24T17:45:15.181Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -170,7 +170,7 @@
         },
         {
           "type": "Kotiruoka",
-          "title": "Paistettua kuhaa& valkoviini-voikastike",
+          "title": "Paistettua merilohta&valkoviini-voikastike",
           "description": "",
           "diet": "L · G",
           "price": ""
