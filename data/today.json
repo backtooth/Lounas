@@ -2,7 +2,7 @@
   "date": "2026-11-25",
   "weekday": "Keskiviikko",
   "displayDate": "25. marraskuuta 2026",
-  "generatedAt": "2026-11-25T01:38:11.051Z",
+  "generatedAt": "2026-11-25T10:30:45.941Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -105,7 +105,7 @@
         {
           "type": "Lounas",
           "title": "Pepperino-pannupizza Detroit Style",
-          "description": "Väärinpäin paistettu pannupizza, missä tomaattikastike päällimmäisenä. Talon itsetehty pannupizzapohja jää tuoreen Mozzarella fior de latten ja parmesanjuuston alle. Ei siis minkään raastetun edamjuuston alle, mihin olet tottunut sunnuntai krapulassasi.",
+          "description": "Väärinpäin paistettu pannupizza, missä tomaattikastike päällimmäisenä. Talon itsetehty pannupizzapohja jää tuoreen Mozzarella fior de latten ja parmesanjuuston alle.",
           "diet": "laktoositon",
           "price": ""
         },
@@ -142,6 +142,13 @@
           "title": "Pariisinperunoita ja tilliä, muusia",
           "description": "",
           "diet": "gluteeniton, laktoositon",
+          "price": ""
+        },
+        {
+          "type": "Lounas",
+          "title": "Ceasarsalaattia",
+          "description": "",
+          "diet": "laktoositon",
           "price": ""
         }
       ]

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-25T01:38:11.051Z",
+  "generatedAt": "2026-11-25T10:30:45.941Z",
   "days": {
     "2026-11-23": {
       "date": "2026-11-23",
       "weekday": "Maanantai",
       "displayDate": "23. marraskuuta 2026",
-      "generatedAt": "2026-11-25T01:38:11.051Z",
+      "generatedAt": "2026-11-25T10:30:45.941Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -273,7 +273,7 @@
       "date": "2026-11-24",
       "weekday": "Tiistai",
       "displayDate": "24. marraskuuta 2026",
-      "generatedAt": "2026-11-25T01:38:11.051Z",
+      "generatedAt": "2026-11-25T10:30:45.941Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -541,7 +541,7 @@
       "date": "2026-11-25",
       "weekday": "Keskiviikko",
       "displayDate": "25. marraskuuta 2026",
-      "generatedAt": "2026-11-25T01:38:11.051Z",
+      "generatedAt": "2026-11-25T10:30:45.941Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -644,7 +644,7 @@
             {
               "type": "Lounas",
               "title": "Pepperino-pannupizza Detroit Style",
-              "description": "Väärinpäin paistettu pannupizza, missä tomaattikastike päällimmäisenä. Talon itsetehty pannupizzapohja jää tuoreen Mozzarella fior de latten ja parmesanjuuston alle. Ei siis minkään raastetun edamjuuston alle, mihin olet tottunut sunnuntai krapulassasi.",
+              "description": "Väärinpäin paistettu pannupizza, missä tomaattikastike päällimmäisenä. Talon itsetehty pannupizzapohja jää tuoreen Mozzarella fior de latten ja parmesanjuuston alle.",
               "diet": "laktoositon",
               "price": ""
             },
@@ -681,6 +681,13 @@
               "title": "Pariisinperunoita ja tilliä, muusia",
               "description": "",
               "diet": "gluteeniton, laktoositon",
+              "price": ""
+            },
+            {
+              "type": "Lounas",
+              "title": "Ceasarsalaattia",
+              "description": "",
+              "diet": "laktoositon",
               "price": ""
             }
           ]
@@ -809,7 +816,7 @@
       "date": "2026-11-26",
       "weekday": "Torstai",
       "displayDate": "26. marraskuuta 2026",
-      "generatedAt": "2026-11-25T01:38:11.051Z",
+      "generatedAt": "2026-11-25T10:30:45.941Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -912,22 +919,22 @@
             {
               "type": "Lounas",
               "title": "Pitkään haudutettua jauheliha chiliä ja creme fraiche dippiä.",
-              "description": "",
+              "description": "Yön yli haudutettua jauheliha chiliä sopivalla \"potkulla\".",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
-              "title": "Kanan paistileikettä BBQ-kastiketta.",
-              "description": "",
+              "title": "Broilerin paistileikettä ja poppamiehen paprika kastiiketta.",
+              "description": "Tortillan väliin makean tulista broilerin paistileikettä. Pieni lisä twisti savupaprikasta ja bbq kastikkeesta.",
               "diet": "gluteeniton, laktoositon",
               "price": ""
             },
             {
               "type": "Lounas",
-              "title": "Kebab tacoja",
-              "description": "",
-              "diet": "laktoositon",
+              "title": "Kebab tacoja ja ananas-tomaatti salsaa.",
+              "description": "Kebabilla ja juustolla täytettyjä tacoja. Lisää kaveriksi tähän ananas salsaa.",
+              "diet": "gluteeniton, laktoositon",
               "price": ""
             },
             {
@@ -1077,7 +1084,7 @@
       "date": "2026-11-27",
       "weekday": "Perjantai",
       "displayDate": "27. marraskuuta 2026",
-      "generatedAt": "2026-11-25T01:38:11.051Z",
+      "generatedAt": "2026-11-25T10:30:45.941Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1193,7 +1200,7 @@
             },
             {
               "type": "Lounas",
-              "title": "Njuda-Salami pasta",
+              "title": "Njuda-Kirsikkatomaatti pasta",
               "description": "",
               "diet": "laktoositon",
               "price": ""
@@ -1352,7 +1359,7 @@
       "date": "2026-11-28",
       "weekday": "Lauantai",
       "displayDate": "28. marraskuuta 2026",
-      "generatedAt": "2026-11-25T01:38:11.051Z",
+      "generatedAt": "2026-11-25T10:30:45.941Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1462,7 +1469,7 @@
       "date": "2026-11-29",
       "weekday": "Sunnuntai",
       "displayDate": "29. marraskuuta 2026",
-      "generatedAt": "2026-11-25T01:38:11.051Z",
+      "generatedAt": "2026-11-25T10:30:45.941Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
