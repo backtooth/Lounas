@@ -2,7 +2,7 @@
   "date": "2026-11-26",
   "weekday": "Torstai",
   "displayDate": "26. marraskuuta 2026",
-  "generatedAt": "2026-11-25T10:30:45.941Z",
+  "generatedAt": "2026-11-26T12:34:44.755Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -104,22 +104,22 @@
       "items": [
         {
           "type": "Lounas",
-          "title": "Pitkään haudutettua jauheliha chiliä ja creme fraiche dippiä.",
+          "title": "Pitkään haudutettua jauheliha chiliä, creme fraiche dippiä ja ananas salsaa.",
           "description": "Yön yli haudutettua jauheliha chiliä sopivalla \"potkulla\".",
           "diet": "gluteeniton, laktoositon",
           "price": ""
         },
         {
           "type": "Lounas",
-          "title": "Broilerin paistileikettä ja poppamiehen paprika kastiiketta.",
+          "title": "Broilerin paistileikettä ja poppamiehen paprika kastiketta.",
           "description": "Tortillan väliin makean tulista broilerin paistileikettä. Pieni lisä twisti savupaprikasta ja bbq kastikkeesta.",
           "diet": "gluteeniton, laktoositon",
           "price": ""
         },
         {
           "type": "Lounas",
-          "title": "Kebab tacoja ja ananas-tomaatti salsaa.",
-          "description": "Kebabilla ja juustolla täytettyjä tacoja. Lisää kaveriksi tähän ananas salsaa.",
+          "title": "Kebab tacoja",
+          "description": "Kebabilla ja juustolla täytettyjä tacoja.",
           "diet": "gluteeniton, laktoositon",
           "price": ""
         },
