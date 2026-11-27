@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-27T13:57:12.388Z",
+  "generatedAt": "2026-11-27T22:42:37.079Z",
   "days": {
     "2026-11-23": {
       "date": "2026-11-23",
       "weekday": "Maanantai",
       "displayDate": "23. marraskuuta 2026",
-      "generatedAt": "2026-11-27T13:57:12.388Z",
+      "generatedAt": "2026-11-27T22:42:37.079Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -227,45 +227,9 @@
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Lounas",
-              "title": "Kievinkanaa, aioli L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Karjalapaistia L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Kasviskevätkääryleet L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Paahdettu valkosipulikeitto L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pieni makea & kahvi / tee",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "error",
+          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
+          "items": []
         }
       ]
     },
@@ -273,7 +237,7 @@
       "date": "2026-11-24",
       "weekday": "Tiistai",
       "displayDate": "24. marraskuuta 2026",
-      "generatedAt": "2026-11-27T13:57:12.388Z",
+      "generatedAt": "2026-11-27T22:42:37.079Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -495,45 +459,9 @@
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Lounas",
-              "title": "Mausteinen pulled pork L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Crispy Chicken L, G, tacomajoneesi L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Sienirisotto L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Paprika-kasviskeitto M, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pieni makea & kahvi/ tee",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "error",
+          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
+          "items": []
         }
       ]
     },
@@ -541,7 +469,7 @@
       "date": "2026-11-25",
       "weekday": "Keskiviikko",
       "displayDate": "25. marraskuuta 2026",
-      "generatedAt": "2026-11-27T13:57:12.388Z",
+      "generatedAt": "2026-11-27T22:42:37.079Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -770,45 +698,9 @@
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Lounas",
-              "title": "Cajun paahdettua lohta, paprikamajoneesi L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Makkarastroganoff L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pinaattiraviolit, jogurttikastike L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Juustoinen kasvissosekeitto L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pieni makea & kahvi / tee",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "error",
+          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
+          "items": []
         }
       ]
     },
@@ -816,7 +708,7 @@
       "date": "2026-11-26",
       "weekday": "Torstai",
       "displayDate": "26. marraskuuta 2026",
-      "generatedAt": "2026-11-27T13:57:12.388Z",
+      "generatedAt": "2026-11-27T22:42:37.079Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1038,45 +930,9 @@
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Lounas",
-              "title": "Nachopaneroitua kanapoikaa L, G, currymajoneesi L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pasta Bolognese L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Kasviswokki paahdetulla tofulla M G, Veg",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Hernekeitto L,G saatavana myös kasvishernekeitto V, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pannukakku, hillo & kermavaahto L, kahvi / tee",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "error",
+          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
+          "items": []
         }
       ]
     },
@@ -1084,7 +940,7 @@
       "date": "2026-11-27",
       "weekday": "Perjantai",
       "displayDate": "27. marraskuuta 2026",
-      "generatedAt": "2026-11-27T13:57:12.388Z",
+      "generatedAt": "2026-11-27T22:42:37.079Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1293,13 +1149,6 @@
               "price": ""
             },
             {
-              "type": "Jälkiruoka",
-              "title": "Appelsiiniriisi",
-              "description": "",
-              "diet": "L · G",
-              "price": ""
-            },
-            {
               "type": "Lisuke",
               "title": "Talon tuoreet leivät, kotikalja, maito, sekamehu ym ..",
               "description": "",
@@ -1313,45 +1162,9 @@
           "address": "Vetokuja 4",
           "hours": "10.30–14.00",
           "sourceUrl": "https://www.kotoravintolat.fi/kaivoksela",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Lounas",
-              "title": "Porsaanleike, choronkastike, pippurikastike L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Fish & chips KOTO:n tapaan L",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Kasvis-kaalikaalilaatikko L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Bataatti-chilikeitto L, G",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lounas",
-              "title": "Pieni makea & kahvi / tee",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "error",
+          "message": "Päivän listaa ei saatu haettua. Tarkista ravintolan oma sivu.",
+          "items": []
         }
       ]
     },
@@ -1359,7 +1172,7 @@
       "date": "2026-11-28",
       "weekday": "Lauantai",
       "displayDate": "28. marraskuuta 2026",
-      "generatedAt": "2026-11-27T13:57:12.388Z",
+      "generatedAt": "2026-11-27T22:42:37.079Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1440,7 +1253,7 @@
             },
             {
               "type": "Jälkiruoka",
-              "title": "Mandariinirahka ja suklaakeksit",
+              "title": "Appelsiiniriisi & suklaakeksit",
               "description": "",
               "diet": "L · G",
               "price": ""
@@ -1469,7 +1282,7 @@
       "date": "2026-11-29",
       "weekday": "Sunnuntai",
       "displayDate": "29. marraskuuta 2026",
-      "generatedAt": "2026-11-27T13:57:12.388Z",
+      "generatedAt": "2026-11-27T22:42:37.079Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
