@@ -2,7 +2,7 @@
   "date": "2026-11-27",
   "weekday": "Perjantai",
   "displayDate": "27. marraskuuta 2026",
-  "generatedAt": "2026-11-26T12:34:44.755Z",
+  "generatedAt": "2026-11-27T13:57:12.388Z",
   "restaurants": [
     {
       "name": "Dylan Vaisala",
@@ -125,7 +125,7 @@
         },
         {
           "type": "Lounas",
-          "title": "Balsamico Paahdettua Parsakaali ja Saksanpähkinää",
+          "title": "Parmesan gratinoitua Parsakaalia ja Saksanpähkinää",
           "description": "",
           "diet": "gluteeniton, laktoositon",
           "price": ""

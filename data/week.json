@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-26T12:34:44.755Z",
+  "generatedAt": "2026-11-27T13:57:12.388Z",
   "days": {
     "2026-11-23": {
       "date": "2026-11-23",
       "weekday": "Maanantai",
       "displayDate": "23. marraskuuta 2026",
-      "generatedAt": "2026-11-26T12:34:44.755Z",
+      "generatedAt": "2026-11-27T13:57:12.388Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -273,7 +273,7 @@
       "date": "2026-11-24",
       "weekday": "Tiistai",
       "displayDate": "24. marraskuuta 2026",
-      "generatedAt": "2026-11-26T12:34:44.755Z",
+      "generatedAt": "2026-11-27T13:57:12.388Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -541,7 +541,7 @@
       "date": "2026-11-25",
       "weekday": "Keskiviikko",
       "displayDate": "25. marraskuuta 2026",
-      "generatedAt": "2026-11-26T12:34:44.755Z",
+      "generatedAt": "2026-11-27T13:57:12.388Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -816,7 +816,7 @@
       "date": "2026-11-26",
       "weekday": "Torstai",
       "displayDate": "26. marraskuuta 2026",
-      "generatedAt": "2026-11-26T12:34:44.755Z",
+      "generatedAt": "2026-11-27T13:57:12.388Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1084,7 +1084,7 @@
       "date": "2026-11-27",
       "weekday": "Perjantai",
       "displayDate": "27. marraskuuta 2026",
-      "generatedAt": "2026-11-26T12:34:44.755Z",
+      "generatedAt": "2026-11-27T13:57:12.388Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1207,7 +1207,7 @@
             },
             {
               "type": "Lounas",
-              "title": "Balsamico Paahdettua Parsakaali ja Saksanpähkinää",
+              "title": "Parmesan gratinoitua Parsakaalia ja Saksanpähkinää",
               "description": "",
               "diet": "gluteeniton, laktoositon",
               "price": ""
@@ -1359,7 +1359,7 @@
       "date": "2026-11-28",
       "weekday": "Lauantai",
       "displayDate": "28. marraskuuta 2026",
-      "generatedAt": "2026-11-26T12:34:44.755Z",
+      "generatedAt": "2026-11-27T13:57:12.388Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1469,7 +1469,7 @@
       "date": "2026-11-29",
       "weekday": "Sunnuntai",
       "displayDate": "29. marraskuuta 2026",
-      "generatedAt": "2026-11-26T12:34:44.755Z",
+      "generatedAt": "2026-11-27T13:57:12.388Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
