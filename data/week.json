@@ -1,56 +1,20 @@
 {
-  "generatedAt": "2026-11-27T22:42:37.079Z",
+  "generatedAt": "2026-11-28T04:15:58.879Z",
   "days": {
     "2026-11-23": {
       "date": "2026-11-23",
       "weekday": "Maanantai",
       "displayDate": "23. marraskuuta 2026",
-      "generatedAt": "2026-11-27T22:42:37.079Z",
+      "generatedAt": "2026-11-28T04:15:58.879Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
           "address": "Vanha Nurmijärventie 21, Rak. 3",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.dylan.fi/vaisala",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Keitto",
-              "title": "Kuohkeaa purjo-perunasosekeittoa (L,G)",
-              "description": "",
-              "diet": "",
-              "price": "6,90 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Lihapyöryköitä yrtti-tomaattikastikkeessa (M, G) Rummon pastaa (V) Parmesania (VL, G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Kotimaista kananpoikaa Lyonin tapaan (L, G) Ruskistetulla voilla maustettua perunaa (L, G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Kasvisruoka",
-              "title": "Soija bolognesea (V, G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Jälkiruoka",
-              "title": "Maanantain makea",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "closed",
+          "message": "Ravintola on tänään suljettu.",
+          "items": []
         },
         {
           "name": "Lunch Hub",
@@ -237,52 +201,16 @@
       "date": "2026-11-24",
       "weekday": "Tiistai",
       "displayDate": "24. marraskuuta 2026",
-      "generatedAt": "2026-11-27T22:42:37.079Z",
+      "generatedAt": "2026-11-28T04:15:58.879Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
           "address": "Vanha Nurmijärventie 21, Rak. 3",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.dylan.fi/vaisala",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Keitto",
-              "title": "Savupaprikakeittoa (L,G) Yrtti cremeä (L,G)",
-              "description": "",
-              "diet": "",
-              "price": "6,90 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Kermaista makkarakastiketta (L,G) Suolakurkkua (V,G) Mummon muusia (L,G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Puna-ahventa kermaisella piparjuurikastikkeella (L, G) Tilliperunaa (V, G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Kasvisruoka",
-              "title": "Nyhtökaura-kasvisgratiinia koskenlaskijalla (L, G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Jälkiruoka",
-              "title": "Kuohkeaa vadelmavispipuuroa (M) Maitoa (L)",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "closed",
+          "message": "Ravintola on tänään suljettu.",
+          "items": []
         },
         {
           "name": "Lunch Hub",
@@ -469,52 +397,16 @@
       "date": "2026-11-25",
       "weekday": "Keskiviikko",
       "displayDate": "25. marraskuuta 2026",
-      "generatedAt": "2026-11-27T22:42:37.079Z",
+      "generatedAt": "2026-11-28T04:15:58.879Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
           "address": "Vanha Nurmijärventie 21, Rak. 3",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.dylan.fi/vaisala",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Keitto",
-              "title": "Samettinen maa-artisokkakeitto (L,G)",
-              "description": "",
-              "diet": "",
-              "price": "6,90 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Voilla ja siirapilla siveltyjä kaalikääryleitä (L, G) Puolukkaa (V, G) Murskattua perunaa (V, G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Lohta voi-valkoviinikastikkeella (L, G) Tilliperunaa (V, G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Kasvisruoka",
-              "title": "Tryffelillä maustettua sieni-härkis risottoa (L, G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Jälkiruoka",
-              "title": "Banaani-kinuski rahkaa (L, G)",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "closed",
+          "message": "Ravintola on tänään suljettu.",
+          "items": []
         },
         {
           "name": "Lunch Hub",
@@ -708,52 +600,16 @@
       "date": "2026-11-26",
       "weekday": "Torstai",
       "displayDate": "26. marraskuuta 2026",
-      "generatedAt": "2026-11-27T22:42:37.079Z",
+      "generatedAt": "2026-11-28T04:15:58.879Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
           "address": "Vanha Nurmijärventie 21, Rak. 3",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.dylan.fi/vaisala",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Keitto",
-              "title": "Perinteistä hernekeittoa (M,G) Sipulia (V,G) Sinappia (V,G) (Kasvisannos pyydettäessä keittiöstä)",
-              "description": "",
-              "diet": "",
-              "price": "6,90 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Teriyakikastikkeella glaseerattua possua (M, G) Seesamiriisiä (V, G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Kanaa cheddar-jalapenokastikkeessa (L,G) Paahdettua paprikaperunaa (V,G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Kasvisruoka",
-              "title": "Teriyaki tofua ja kasviksia (V,G)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Jälkiruoka",
-              "title": "Kotitekoista pannukakkua (L) Hilloa (V, G) Kermavaahtoa (L, G)",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "closed",
+          "message": "Ravintola on tänään suljettu.",
+          "items": []
         },
         {
           "name": "Lunch Hub",
@@ -940,52 +796,16 @@
       "date": "2026-11-27",
       "weekday": "Perjantai",
       "displayDate": "27. marraskuuta 2026",
-      "generatedAt": "2026-11-27T22:42:37.079Z",
+      "generatedAt": "2026-11-28T04:15:58.879Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
           "address": "Vanha Nurmijärventie 21, Rak. 3",
           "hours": "10.30–13.30",
           "sourceUrl": "https://www.dylan.fi/vaisala",
-          "status": "ok",
-          "message": "",
-          "items": [
-            {
-              "type": "Keitto",
-              "title": "Tom yam keittoa katkaravuilla (M,G)",
-              "description": "",
-              "diet": "",
-              "price": "6,90 €"
-            },
-            {
-              "type": "Kotiruoka",
-              "title": "Naudanliha kebabia tuhdissa tomaattikastikkeessa (M,G) Kanakebabia currykastikkeella (L,G) Vebabia (V)",
-              "description": "",
-              "diet": "",
-              "price": "11,20 €"
-            },
-            {
-              "type": "Lisuke",
-              "title": "Tzatsikia (L, G) Marinoitua punasipulia (V, G) Jalopenoja (V, G)",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Lisuke",
-              "title": "Rapeita ranskalaisia (V, G) Riisiä (V, G)",
-              "description": "",
-              "diet": "",
-              "price": ""
-            },
-            {
-              "type": "Jälkiruoka",
-              "title": "Perjantai herkku",
-              "description": "",
-              "diet": "",
-              "price": ""
-            }
-          ]
+          "status": "closed",
+          "message": "Ravintola on tänään suljettu.",
+          "items": []
         },
         {
           "name": "Lunch Hub",
@@ -1172,7 +992,7 @@
       "date": "2026-11-28",
       "weekday": "Lauantai",
       "displayDate": "28. marraskuuta 2026",
-      "generatedAt": "2026-11-27T22:42:37.079Z",
+      "generatedAt": "2026-11-28T04:15:58.879Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1282,7 +1102,7 @@
       "date": "2026-11-29",
       "weekday": "Sunnuntai",
       "displayDate": "29. marraskuuta 2026",
-      "generatedAt": "2026-11-27T22:42:37.079Z",
+      "generatedAt": "2026-11-28T04:15:58.879Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
