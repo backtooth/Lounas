@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-28T04:15:58.879Z",
+  "generatedAt": "2026-11-28T13:11:11.930Z",
   "days": {
     "2026-11-23": {
       "date": "2026-11-23",
       "weekday": "Maanantai",
       "displayDate": "23. marraskuuta 2026",
-      "generatedAt": "2026-11-28T04:15:58.879Z",
+      "generatedAt": "2026-11-28T13:11:11.930Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -201,7 +201,7 @@
       "date": "2026-11-24",
       "weekday": "Tiistai",
       "displayDate": "24. marraskuuta 2026",
-      "generatedAt": "2026-11-28T04:15:58.879Z",
+      "generatedAt": "2026-11-28T13:11:11.930Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -397,7 +397,7 @@
       "date": "2026-11-25",
       "weekday": "Keskiviikko",
       "displayDate": "25. marraskuuta 2026",
-      "generatedAt": "2026-11-28T04:15:58.879Z",
+      "generatedAt": "2026-11-28T13:11:11.930Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -600,7 +600,7 @@
       "date": "2026-11-26",
       "weekday": "Torstai",
       "displayDate": "26. marraskuuta 2026",
-      "generatedAt": "2026-11-28T04:15:58.879Z",
+      "generatedAt": "2026-11-28T13:11:11.930Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -796,7 +796,7 @@
       "date": "2026-11-27",
       "weekday": "Perjantai",
       "displayDate": "27. marraskuuta 2026",
-      "generatedAt": "2026-11-28T04:15:58.879Z",
+      "generatedAt": "2026-11-28T13:11:11.930Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -992,7 +992,7 @@
       "date": "2026-11-28",
       "weekday": "Lauantai",
       "displayDate": "28. marraskuuta 2026",
-      "generatedAt": "2026-11-28T04:15:58.879Z",
+      "generatedAt": "2026-11-28T13:11:11.930Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
@@ -1038,7 +1038,7 @@
             },
             {
               "type": "Kotiruoka",
-              "title": "Ylikypsää porsaankasleria konjakkisinappikastikkeessa",
+              "title": "Ylikypsää porsaankassleria luumukastikkeessa",
               "description": "",
               "diet": "L · G",
               "price": ""
@@ -1102,7 +1102,7 @@
       "date": "2026-11-29",
       "weekday": "Sunnuntai",
       "displayDate": "29. marraskuuta 2026",
-      "generatedAt": "2026-11-28T04:15:58.879Z",
+      "generatedAt": "2026-11-28T13:11:11.930Z",
       "restaurants": [
         {
           "name": "Dylan Vaisala",
